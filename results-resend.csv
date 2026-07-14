@@ -1,0 +1,592 @@
+run,netem,netem_spec,variant,program,program_bytes,outcome,metric,us,count
+0,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,wall,27553870,0
+0,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,client_setup,802462,0
+0,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,first_send,7,0
+0,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,send_phase,18651865,1866
+0,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,resend_rounds,3,185
+0,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,resent_txs,253,0
+0,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,confirm_phase,2504471,0
+0,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,write_chunks,21790048,1866
+0,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,final_tx,1716799,0
+0,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,total_deploy,26321125,2892224
+0,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,wall,25626722,0
+0,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,client_setup,1202008,0
+0,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,first_send,401476,0
+0,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,send_phase,18653836,1866
+0,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,resend_rounds,1,127
+0,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,resent_txs,127,0
+0,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,confirm_phase,1260707,0
+0,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,write_chunks,20374492,1866
+0,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,final_tx,816320,0
+0,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,total_deploy,24400180,2892224
+0,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,wall,18893087,0
+0,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,client_setup,807278,0
+0,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,first_send,374,0
+0,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,send_phase,5005203,501
+0,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,resend_rounds,7,185
+0,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,resent_txs,485,0
+0,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,confirm_phase,4803437,0
+0,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,write_chunks,10253469,501
+0,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,final_tx,2652547,0
+0,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,total_deploy,17613686,1382016
+0,d100_l0,delay 100ms,baseline,token-2022,1382016,success,wall,16612747,0
+0,d100_l0,delay 100ms,baseline,token-2022,1382016,success,client_setup,1223777,0
+0,d100_l0,delay 100ms,baseline,token-2022,1382016,success,first_send,406497,0
+0,d100_l0,delay 100ms,baseline,token-2022,1382016,success,send_phase,5001889,501
+0,d100_l0,delay 100ms,baseline,token-2022,1382016,success,resend_rounds,1,121
+0,d100_l0,delay 100ms,baseline,token-2022,1382016,success,resent_txs,121,0
+0,d100_l0,delay 100ms,baseline,token-2022,1382016,success,confirm_phase,1201415,0
+0,d100_l0,delay 100ms,baseline,token-2022,1382016,success,write_chunks,6714664,501
+0,d100_l0,delay 100ms,baseline,token-2022,1382016,success,final_tx,1709001,0
+0,d100_l0,delay 100ms,baseline,token-2022,1382016,success,total_deploy,15316560,1382016
+0,d100_l0,delay 100ms,baseline,token,108600,success,wall,8615033,0
+0,d100_l0,delay 100ms,baseline,token,108600,success,client_setup,1203204,0
+0,d100_l0,delay 100ms,baseline,token,108600,success,first_send,401799,0
+0,d100_l0,delay 100ms,baseline,token,108600,success,send_phase,1071428,108
+0,d100_l0,delay 100ms,baseline,token,108600,success,resend_rounds,2,108
+0,d100_l0,delay 100ms,baseline,token,108600,success,resent_txs,192,0
+0,d100_l0,delay 100ms,baseline,token,108600,success,confirm_phase,1902781,0
+0,d100_l0,delay 100ms,baseline,token,108600,success,write_chunks,3380155,108
+0,d100_l0,delay 100ms,baseline,token,108600,success,final_tx,804125,0
+0,d100_l0,delay 100ms,baseline,token,108600,success,total_deploy,7395149,108600
+0,d100_l0,delay 100ms,tpu_next,token,108600,success,wall,10837410,0
+0,d100_l0,delay 100ms,tpu_next,token,108600,success,client_setup,801242,0
+0,d100_l0,delay 100ms,tpu_next,token,108600,success,first_send,3,0
+0,d100_l0,delay 100ms,tpu_next,token,108600,success,send_phase,1071428,108
+0,d100_l0,delay 100ms,tpu_next,token,108600,success,resend_rounds,811,108
+0,d100_l0,delay 100ms,tpu_next,token,108600,success,resent_txs,978,0
+0,d100_l0,delay 100ms,tpu_next,token,108600,success,confirm_phase,2533566,0
+0,d100_l0,delay 100ms,tpu_next,token,108600,success,write_chunks,4007659,108
+0,d100_l0,delay 100ms,tpu_next,token,108600,success,final_tx,1705591,0
+0,d100_l0,delay 100ms,tpu_next,token,108600,success,total_deploy,9422021,108600
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,wall,22679931,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,client_setup,201281,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,first_send,8,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,send_phase,18652142,1866
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,resend_rounds,5,116
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,resent_txs,144,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,confirm_phase,1396267,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,write_chunks,20180070,1866
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,final_tx,817425,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,total_deploy,22309258,2892224
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,wall,23555400,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,client_setup,303391,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,first_send,101969,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,send_phase,18654137,1866
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,resend_rounds,3,72
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,resent_txs,216,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,confirm_phase,2133353,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,write_chunks,20948960,1866
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,final_tx,814978,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,total_deploy,23179774,2892224
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,wall,12330583,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,client_setup,202119,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,first_send,5,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,send_phase,5001696,501
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,resend_rounds,8,333
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,resent_txs,475,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,confirm_phase,4678517,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,write_chunks,9842692,501
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,final_tx,807224,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,total_deploy,11962094,1382016
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,wall,9082014,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,client_setup,302669,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,first_send,102021,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,send_phase,5001599,501
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,resend_rounds,1,110
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,resent_txs,110,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,confirm_phase,1091039,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,write_chunks,6212248,501
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,final_tx,809083,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,total_deploy,8713199,1382016
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,wall,17357674,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,client_setup,1916810,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,first_send,6,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,send_phase,1071427,108
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,resend_rounds,718,108
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,resent_txs,865,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,confirm_phase,2235471,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,write_chunks,3411219,108
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,final_tx,805778,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,total_deploy,16889679,108600
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,wall,4557341,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,client_setup,302613,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,first_send,101844,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,send_phase,1071610,108
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,resend_rounds,4,37
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,resent_txs,148,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,confirm_phase,1445027,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,write_chunks,2622624,108
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,final_tx,805240,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,total_deploy,4236894,108600
+1,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,wall,27253473,0
+1,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,client_setup,801778,0
+1,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,first_send,6,0
+1,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,send_phase,18652769,1866
+1,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,resend_rounds,12,101
+1,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,resent_txs,252,0
+1,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,confirm_phase,2414914,0
+1,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,write_chunks,21500091,1866
+1,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,final_tx,1719264,0
+1,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,total_deploy,26031229,2892224
+1,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,wall,28402262,0
+1,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,client_setup,1202259,0
+1,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,first_send,401706,0
+1,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,send_phase,18653950,1866
+1,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,resend_rounds,1,204
+1,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,resent_txs,204,0
+1,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,confirm_phase,2032094,0
+1,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,write_chunks,21146825,1866
+1,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,final_tx,1716199,0
+1,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,total_deploy,26977770,2892224
+1,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,wall,14290051,0
+1,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,client_setup,801851,0
+1,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,first_send,5,0
+1,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,send_phase,5001461,501
+1,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,resend_rounds,8,178
+1,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,resent_txs,321,0
+1,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,confirm_phase,3137872,0
+1,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,write_chunks,8550309,501
+1,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,final_tx,1710154,0
+1,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,total_deploy,13069979,1382016
+1,d100_l0,delay 100ms,baseline,token-2022,1382016,success,wall,13858356,0
+1,d100_l0,delay 100ms,baseline,token-2022,1382016,success,client_setup,1202598,0
+1,d100_l0,delay 100ms,baseline,token-2022,1382016,success,first_send,401699,0
+1,d100_l0,delay 100ms,baseline,token-2022,1382016,success,send_phase,5001707,501
+1,d100_l0,delay 100ms,baseline,token-2022,1382016,success,resend_rounds,1,120
+1,d100_l0,delay 100ms,baseline,token-2022,1382016,success,resent_txs,120,0
+1,d100_l0,delay 100ms,baseline,token-2022,1382016,success,confirm_phase,1191612,0
+1,d100_l0,delay 100ms,baseline,token-2022,1382016,success,write_chunks,6611905,501
+1,d100_l0,delay 100ms,baseline,token-2022,1382016,success,final_tx,1711613,0
+1,d100_l0,delay 100ms,baseline,token-2022,1382016,success,total_deploy,12436724,1382016
+1,d100_l0,delay 100ms,tpu_next,token,108600,success,wall,9764347,0
+1,d100_l0,delay 100ms,tpu_next,token,108600,success,client_setup,802118,0
+1,d100_l0,delay 100ms,tpu_next,token,108600,success,first_send,5,0
+1,d100_l0,delay 100ms,tpu_next,token,108600,success,send_phase,1071816,108
+1,d100_l0,delay 100ms,tpu_next,token,108600,success,resend_rounds,21,108
+1,d100_l0,delay 100ms,tpu_next,token,108600,success,resent_txs,274,0
+1,d100_l0,delay 100ms,tpu_next,token,108600,success,confirm_phase,2554770,0
+1,d100_l0,delay 100ms,tpu_next,token,108600,success,write_chunks,4030102,108
+1,d100_l0,delay 100ms,tpu_next,token,108600,success,final_tx,1705064,0
+1,d100_l0,delay 100ms,tpu_next,token,108600,success,total_deploy,8544036,108600
+1,d100_l0,delay 100ms,baseline,token,108600,success,wall,9504860,0
+1,d100_l0,delay 100ms,baseline,token,108600,success,client_setup,1203194,0
+1,d100_l0,delay 100ms,baseline,token,108600,success,first_send,402082,0
+1,d100_l0,delay 100ms,baseline,token,108600,success,send_phase,1070911,108
+1,d100_l0,delay 100ms,baseline,token,108600,success,resend_rounds,2,108
+1,d100_l0,delay 100ms,baseline,token,108600,success,resent_txs,171,0
+1,d100_l0,delay 100ms,baseline,token,108600,success,confirm_phase,1692278,0
+1,d100_l0,delay 100ms,baseline,token,108600,success,write_chunks,3167966,108
+1,d100_l0,delay 100ms,baseline,token,108600,success,final_tx,803580,0
+1,d100_l0,delay 100ms,baseline,token,108600,success,total_deploy,8083739,108600
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,wall,22194738,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,client_setup,302933,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,first_send,102253,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,send_phase,18655047,1866
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,resend_rounds,2,134
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,resent_txs,144,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,confirm_phase,1422527,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,write_chunks,20237344,1866
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,final_tx,816275,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,total_deploy,21869110,2892224
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,wall,24181220,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,client_setup,202377,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,first_send,5,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,send_phase,18652018,1866
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,resend_rounds,10,86
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,resent_txs,158,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,confirm_phase,1490418,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,write_chunks,20275094,1866
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,final_tx,816667,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,total_deploy,22408712,2892224
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,wall,8834510,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,client_setup,303333,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,first_send,101954,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,send_phase,5001193,501
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,resend_rounds,1,118
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,resent_txs,118,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,confirm_phase,1170912,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,write_chunks,6289910,501
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,final_tx,808916,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,total_deploy,8512974,1382016
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,wall,9972813,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,client_setup,202097,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,first_send,10,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,send_phase,5002052,501
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,resend_rounds,977,117
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,resent_txs,1114,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,confirm_phase,2412748,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,write_chunks,7524814,501
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,final_tx,809721,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,total_deploy,9648321,1382016
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,wall,4694602,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,client_setup,202208,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,first_send,5,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,send_phase,1071546,108
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,resend_rounds,2,55
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,resent_txs,110,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,confirm_phase,1081720,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,write_chunks,2257166,108
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,final_tx,806367,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,total_deploy,4374484,108600
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,wall,4915442,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,client_setup,303570,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,first_send,102020,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,send_phase,1070997,108
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,resend_rounds,6,20
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,resent_txs,120,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,confirm_phase,1146014,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,write_chunks,2322794,108
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,final_tx,805989,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,total_deploy,4542401,108600
+2,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,wall,28375635,0
+2,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,client_setup,1202822,0
+2,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,first_send,401952,0
+2,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,send_phase,18653321,1866
+2,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,resend_rounds,1,201
+2,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,resent_txs,201,0
+2,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,confirm_phase,2001346,0
+2,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,write_chunks,21122811,1866
+2,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,final_tx,1711068,0
+2,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,total_deploy,26948071,2892224
+2,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,wall,27240485,0
+2,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,client_setup,801199,0
+2,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,first_send,6,0
+2,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,send_phase,18653190,1866
+2,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,resend_rounds,5,122
+2,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,resent_txs,226,0
+2,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,confirm_phase,2215215,0
+2,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,write_chunks,21298950,1866
+2,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,final_tx,811464,0
+2,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,total_deploy,25820784,2892224
+2,d100_l0,delay 100ms,baseline,token-2022,1382016,success,wall,13891321,0
+2,d100_l0,delay 100ms,baseline,token-2022,1382016,success,client_setup,1201643,0
+2,d100_l0,delay 100ms,baseline,token-2022,1382016,success,first_send,401186,0
+2,d100_l0,delay 100ms,baseline,token-2022,1382016,success,send_phase,5001548,501
+2,d100_l0,delay 100ms,baseline,token-2022,1382016,success,resend_rounds,1,125
+2,d100_l0,delay 100ms,baseline,token-2022,1382016,success,resent_txs,125,0
+2,d100_l0,delay 100ms,baseline,token-2022,1382016,success,confirm_phase,1240896,0
+2,d100_l0,delay 100ms,baseline,token-2022,1382016,success,write_chunks,6658866,501
+2,d100_l0,delay 100ms,baseline,token-2022,1382016,success,final_tx,1707647,0
+2,d100_l0,delay 100ms,baseline,token-2022,1382016,success,total_deploy,12474076,1382016
+2,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,wall,14412848,0
+2,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,client_setup,801284,0
+2,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,first_send,3,0
+2,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,send_phase,5000458,501
+2,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,resend_rounds,12,178
+2,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,resent_txs,318,0
+2,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,confirm_phase,3074140,0
+2,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,write_chunks,8483241,501
+2,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,final_tx,805572,0
+2,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,total_deploy,12997254,1382016
+2,d100_l0,delay 100ms,tpu_next,token,108600,success,wall,10838598,0
+2,d100_l0,delay 100ms,tpu_next,token,108600,success,client_setup,801728,0
+2,d100_l0,delay 100ms,tpu_next,token,108600,success,first_send,3,0
+2,d100_l0,delay 100ms,tpu_next,token,108600,success,send_phase,1071271,108
+2,d100_l0,delay 100ms,tpu_next,token,108600,success,resend_rounds,835,108
+2,d100_l0,delay 100ms,tpu_next,token,108600,success,resent_txs,1000,0
+2,d100_l0,delay 100ms,tpu_next,token,108600,success,confirm_phase,2533711,0
+2,d100_l0,delay 100ms,tpu_next,token,108600,success,write_chunks,4007822,108
+2,d100_l0,delay 100ms,tpu_next,token,108600,success,final_tx,1705989,0
+2,d100_l0,delay 100ms,tpu_next,token,108600,success,total_deploy,9422191,108600
+2,d100_l0,delay 100ms,baseline,token,108600,success,wall,8592147,0
+2,d100_l0,delay 100ms,baseline,token,108600,success,client_setup,1202756,0
+2,d100_l0,delay 100ms,baseline,token,108600,success,first_send,401270,0
+2,d100_l0,delay 100ms,baseline,token,108600,success,send_phase,1070342,108
+2,d100_l0,delay 100ms,baseline,token,108600,success,resend_rounds,2,108
+2,d100_l0,delay 100ms,baseline,token,108600,success,resent_txs,191,0
+2,d100_l0,delay 100ms,baseline,token,108600,success,confirm_phase,1892634,0
+2,d100_l0,delay 100ms,baseline,token,108600,success,write_chunks,3367374,108
+2,d100_l0,delay 100ms,baseline,token,108600,success,final_tx,802584,0
+2,d100_l0,delay 100ms,baseline,token,108600,success,total_deploy,7376757,108600
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,wall,22503863,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,client_setup,301488,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,first_send,101661,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,send_phase,18653183,1866
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,resend_rounds,1,116
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,resent_txs,116,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,confirm_phase,1151504,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,write_chunks,19963274,1866
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,final_tx,811812,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,total_deploy,22184041,2892224
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,failure,wall,30108658,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,wall,8474481,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,client_setup,201158,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,first_send,3,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,send_phase,5001373,501
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,resend_rounds,5,98
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,resent_txs,158,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,confirm_phase,1535464,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,write_chunks,6646417,501
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,final_tx,205595,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,total_deploy,8159384,1382016
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,wall,9242070,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,client_setup,302236,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,first_send,1101628,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,send_phase,5001810,501
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,resend_rounds,4,81
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,resent_txs,162,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,confirm_phase,1593000,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,write_chunks,6710782,501
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,final_tx,807203,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,total_deploy,8926835,1382016
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,wall,5078377,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,client_setup,301819,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,first_send,101299,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,send_phase,1070554,108
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,resend_rounds,2,108
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,resent_txs,134,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,confirm_phase,1322695,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,write_chunks,2497751,108
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,final_tx,804389,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,total_deploy,4711015,108600
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,wall,4102003,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,client_setup,201674,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,first_send,6,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,send_phase,1070515,108
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,resend_rounds,5,22
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,resent_txs,110,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,confirm_phase,1054969,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,write_chunks,2227816,108
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,final_tx,202389,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,total_deploy,3737742,108600
+3,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,wall,26510568,0
+3,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,client_setup,1201557,0
+3,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,first_send,401237,0
+3,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,send_phase,18653323,1866
+3,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,resend_rounds,2,64
+3,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,resent_txs,128,0
+3,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,confirm_phase,1262266,0
+3,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,write_chunks,20374719,1866
+3,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,final_tx,809343,0
+3,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,total_deploy,25292771,2892224
+3,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,wall,27332992,0
+3,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,client_setup,801428,0
+3,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,first_send,4,0
+3,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,send_phase,18652099,1866
+3,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,resend_rounds,6,121
+3,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,resent_txs,236,0
+3,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,confirm_phase,2306051,0
+3,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,write_chunks,21390371,1866
+3,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,final_tx,811831,0
+3,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,total_deploy,25913545,2892224
+3,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,wall,14361675,0
+3,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,client_setup,801343,0
+3,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,first_send,3,0
+3,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,send_phase,5002065,501
+3,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,resend_rounds,28,158
+3,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,resent_txs,347,0
+3,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,confirm_phase,3219403,0
+3,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,write_chunks,8631534,501
+3,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,final_tx,805305,0
+3,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,total_deploy,13145811,1382016
+3,d100_l0,delay 100ms,baseline,token-2022,1382016,success,wall,12737564,0
+3,d100_l0,delay 100ms,baseline,token-2022,1382016,success,client_setup,1201681,0
+3,d100_l0,delay 100ms,baseline,token-2022,1382016,success,first_send,401256,0
+3,d100_l0,delay 100ms,baseline,token-2022,1382016,success,send_phase,5001508,501
+3,d100_l0,delay 100ms,baseline,token-2022,1382016,success,resend_rounds,1,120
+3,d100_l0,delay 100ms,baseline,token-2022,1382016,success,resent_txs,120,0
+3,d100_l0,delay 100ms,baseline,token-2022,1382016,success,confirm_phase,1191124,0
+3,d100_l0,delay 100ms,baseline,token-2022,1382016,success,write_chunks,6609160,501
+3,d100_l0,delay 100ms,baseline,token-2022,1382016,success,final_tx,805084,0
+3,d100_l0,delay 100ms,baseline,token-2022,1382016,success,total_deploy,11521927,1382016
+3,d100_l0,delay 100ms,tpu_next,token,108600,success,wall,10847174,0
+3,d100_l0,delay 100ms,tpu_next,token,108600,success,client_setup,801241,0
+3,d100_l0,delay 100ms,tpu_next,token,108600,success,first_send,10,0
+3,d100_l0,delay 100ms,tpu_next,token,108600,success,send_phase,1071022,108
+3,d100_l0,delay 100ms,tpu_next,token,108600,success,resend_rounds,80,108
+3,d100_l0,delay 100ms,tpu_next,token,108600,success,resent_txs,325,0
+3,d100_l0,delay 100ms,tpu_next,token,108600,success,confirm_phase,2540587,0
+3,d100_l0,delay 100ms,tpu_next,token,108600,success,write_chunks,4017901,108
+3,d100_l0,delay 100ms,tpu_next,token,108600,success,final_tx,1707329,0
+3,d100_l0,delay 100ms,tpu_next,token,108600,success,total_deploy,9432103,108600
+3,d100_l0,delay 100ms,baseline,token,108600,success,wall,9492555,0
+3,d100_l0,delay 100ms,baseline,token,108600,success,client_setup,1203494,0
+3,d100_l0,delay 100ms,baseline,token,108600,success,first_send,402240,0
+3,d100_l0,delay 100ms,baseline,token,108600,success,send_phase,1070860,108
+3,d100_l0,delay 100ms,baseline,token,108600,success,resend_rounds,2,108
+3,d100_l0,delay 100ms,baseline,token,108600,success,resent_txs,170,0
+3,d100_l0,delay 100ms,baseline,token,108600,success,confirm_phase,1681652,0
+3,d100_l0,delay 100ms,baseline,token,108600,success,write_chunks,3157897,108
+3,d100_l0,delay 100ms,baseline,token,108600,success,final_tx,802752,0
+3,d100_l0,delay 100ms,baseline,token,108600,success,total_deploy,8073366,108600
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,wall,22506298,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,client_setup,302574,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,first_send,101935,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,send_phase,18654266,1866
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,resend_rounds,1,115
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,resent_txs,115,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,confirm_phase,1140853,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,write_chunks,19956815,1866
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,final_tx,814208,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,total_deploy,22186616,2892224
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,wall,22583378,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,client_setup,301370,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,first_send,7,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,send_phase,18651521,1866
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,resend_rounds,4,33
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,resent_txs,132,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,confirm_phase,1284322,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,write_chunks,20065443,1866
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,final_tx,811867,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,total_deploy,22214266,2892224
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,wall,11200968,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,client_setup,251312,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,first_send,13,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,send_phase,5001036,501
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,resend_rounds,6,96
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,resent_txs,161,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,confirm_phase,1555996,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,write_chunks,6665309,501
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,final_tx,206045,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,total_deploy,8230192,1382016
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,wall,9007932,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,client_setup,301594,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,first_send,101712,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,send_phase,5001396,501
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,resend_rounds,56,126
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,resent_txs,181,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,confirm_phase,1309305,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,write_chunks,6426875,501
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,final_tx,806190,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,total_deploy,8640858,1382016
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,wall,4650703,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,client_setup,201382,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,first_send,6,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,send_phase,1071369,108
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,resend_rounds,2,57
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,resent_txs,114,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,confirm_phase,1121691,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,write_chunks,2295451,108
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,final_tx,731935,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,total_deploy,4335091,108600
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,wall,5436713,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,client_setup,302184,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,first_send,101246,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,send_phase,1071078,108
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,resend_rounds,7,18
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,resent_txs,126,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,confirm_phase,1198267,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,write_chunks,2373564,108
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,final_tx,1340015,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,total_deploy,5122484,108600
+4,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,wall,28283100,0
+4,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,client_setup,801270,0
+4,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,first_send,3,0
+4,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,send_phase,18652620,1866
+4,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,resend_rounds,6,121
+4,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,resent_txs,241,0
+4,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,confirm_phase,2358556,0
+4,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,write_chunks,21642107,1866
+4,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,final_tx,1712624,0
+4,d100_l0,delay 100ms,tpu_next,jupiter-v6,2892224,success,total_deploy,27064363,2892224
+4,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,wall,26514382,0
+4,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,client_setup,1201755,0
+4,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,first_send,402261,0
+4,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,send_phase,18653593,1866
+4,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,resend_rounds,2,64
+4,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,resent_txs,128,0
+4,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,confirm_phase,1262020,0
+4,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,write_chunks,20372517,1866
+4,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,final_tx,810641,0
+4,d100_l0,delay 100ms,baseline,jupiter-v6,2892224,success,total_deploy,25293306,2892224
+4,d100_l0,delay 100ms,baseline,token-2022,1382016,success,wall,12921822,0
+4,d100_l0,delay 100ms,baseline,token-2022,1382016,success,client_setup,1201799,0
+4,d100_l0,delay 100ms,baseline,token-2022,1382016,success,first_send,401151,0
+4,d100_l0,delay 100ms,baseline,token-2022,1382016,success,send_phase,5001594,501
+4,d100_l0,delay 100ms,baseline,token-2022,1382016,success,resend_rounds,1,138
+4,d100_l0,delay 100ms,baseline,token-2022,1382016,success,resent_txs,138,0
+4,d100_l0,delay 100ms,baseline,token-2022,1382016,success,confirm_phase,1370674,0
+4,d100_l0,delay 100ms,baseline,token-2022,1382016,success,write_chunks,6789639,501
+4,d100_l0,delay 100ms,baseline,token-2022,1382016,success,final_tx,1707166,0
+4,d100_l0,delay 100ms,baseline,token-2022,1382016,success,total_deploy,11704132,1382016
+4,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,wall,14376108,0
+4,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,client_setup,801225,0
+4,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,first_send,4,0
+4,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,send_phase,5001356,501
+4,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,resend_rounds,13,178
+4,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,resent_txs,315,0
+4,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,confirm_phase,3033830,0
+4,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,write_chunks,8444331,501
+4,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,final_tx,804578,0
+4,d100_l0,delay 100ms,tpu_next,token-2022,1382016,success,total_deploy,12957602,1382016
+4,d100_l0,delay 100ms,tpu_next,token,108600,success,wall,9750491,0
+4,d100_l0,delay 100ms,tpu_next,token,108600,success,client_setup,801320,0
+4,d100_l0,delay 100ms,tpu_next,token,108600,success,first_send,3,0
+4,d100_l0,delay 100ms,tpu_next,token,108600,success,send_phase,1071289,108
+4,d100_l0,delay 100ms,tpu_next,token,108600,success,resend_rounds,11,108
+4,d100_l0,delay 100ms,tpu_next,token,108600,success,resent_txs,265,0
+4,d100_l0,delay 100ms,tpu_next,token,108600,success,confirm_phase,2551881,0
+4,d100_l0,delay 100ms,tpu_next,token,108600,success,write_chunks,4025617,108
+4,d100_l0,delay 100ms,tpu_next,token,108600,success,final_tx,1704617,0
+4,d100_l0,delay 100ms,tpu_next,token,108600,success,total_deploy,8535619,108600
+4,d100_l0,delay 100ms,baseline,token,108600,success,wall,8601506,0
+4,d100_l0,delay 100ms,baseline,token,108600,success,client_setup,1201798,0
+4,d100_l0,delay 100ms,baseline,token,108600,success,first_send,401167,0
+4,d100_l0,delay 100ms,baseline,token,108600,success,send_phase,1070470,108
+4,d100_l0,delay 100ms,baseline,token,108600,success,resend_rounds,2,108
+4,d100_l0,delay 100ms,baseline,token,108600,success,resent_txs,192,0
+4,d100_l0,delay 100ms,baseline,token,108600,success,confirm_phase,1902317,0
+4,d100_l0,delay 100ms,baseline,token,108600,success,write_chunks,3377177,108
+4,d100_l0,delay 100ms,baseline,token,108600,success,final_tx,802626,0
+4,d100_l0,delay 100ms,baseline,token,108600,success,total_deploy,7386121,108600
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,wall,22572440,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,client_setup,201240,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,first_send,3,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,send_phase,18652303,1866
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,resend_rounds,2,68
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,resent_txs,136,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,confirm_phase,1342516,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,write_chunks,20126597,1866
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,final_tx,814679,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,total_deploy,22251852,2892224
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,wall,22001671,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,client_setup,301691,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,first_send,101204,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,send_phase,18653120,1866
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,resend_rounds,1,121
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,resent_txs,121,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,confirm_phase,1201305,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,write_chunks,20011879,1866
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,final_tx,211552,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,total_deploy,21632183,2892224
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,wall,9905998,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,client_setup,201569,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,first_send,5,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,send_phase,5001584,501
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,resend_rounds,938,117
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,resent_txs,1075,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,confirm_phase,2361202,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,write_chunks,7471515,501
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,final_tx,806718,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,total_deploy,9588446,1382016
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,wall,8845111,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,client_setup,301830,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,first_send,101144,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,send_phase,5002327,501
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,resend_rounds,1,120
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,resent_txs,120,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,confirm_phase,1191347,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,write_chunks,6310261,501
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,final_tx,808166,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,total_deploy,8526748,1382016
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,wall,6070272,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,client_setup,351979,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,first_send,101679,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,send_phase,1070544,108
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,resend_rounds,3,44
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,resent_txs,132,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,confirm_phase,1294281,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,write_chunks,2469111,108
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,final_tx,804854,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,total_deploy,4731988,108600
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,wall,4741703,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,client_setup,201287,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,first_send,7,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,send_phase,1071184,108
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,resend_rounds,2,58
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,resent_txs,116,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,confirm_phase,1142778,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,write_chunks,2316238,108
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,final_tx,804449,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,total_deploy,4427511,108600

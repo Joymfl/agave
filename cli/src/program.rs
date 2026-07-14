@@ -84,9 +84,13 @@ use {
         path::PathBuf,
         rc::Rc,
         str::FromStr,
-        sync::Arc,
-        time::Duration,
+        sync::{
+            Arc,
+            atomic::{AtomicU64, Ordering},
+        },
+        time::{Duration, Instant},
     },
+    tokio_util::sync::CancellationToken,
 };
 
 pub const CLOSE_PROGRAM_WARNING: &str = "WARNING! Closed programs cannot be recreated at the same \
@@ -2616,6 +2620,7 @@ async fn do_process_program_deploy(
     max_sign_attempts: usize,
     use_rpc: bool,
 ) -> ProcessResult {
+    let deploy_start = Instant::now();
     let blockhash = rpc_client.get_latest_blockhash().await?;
     let compute_unit_limit = ComputeUnitLimit::Simulated;
 
@@ -2727,6 +2732,13 @@ async fn do_process_program_deploy(
         &compute_unit_limit,
     )
     .await?;
+
+    info!(
+        target: "deploy_metric",
+        "total_deploy,{},{}",
+        deploy_start.elapsed().as_micros(),
+        program_len,
+    );
 
     let program_id = CliProgramId {
         program_id: program_signers[0].pubkey().to_string(),
@@ -3243,9 +3255,21 @@ async fn send_deploy_messages(
 
             // Holds the scheduler alive for the duration of the send.
             let _tpu_client;
+            // MEASUREMENT ONLY: transactions tpu-client-next actually wrote to a
+            // QUIC stream. The CLI hands it N + resends; anything short of that was
+            // discarded inside the transport -- `send_to_workers` drops a batch on
+            // a full worker channel, logs it at debug!, and returns Ok(()), so the
+            // caller is never told. Nothing in SendTransactionStats counts that
+            // drop either, which is why we have to infer it from the shortfall.
+            let quic_sent = Arc::new(AtomicU64::new(0));
+            let setup_start = Instant::now();
             let transport = if use_rpc {
                 SendTransport::Rpc(config.send_transaction_config)
             } else {
+                // Child tokens, not clones. These services cancel the token they
+                // are handed when they shut down; a clone of the process-wide
+                // token would therefore report a normal shutdown as a Ctrl + C
+                // and abort the deploy before the final transaction is sent.
                 let node_address_service = WebsocketNodeAddressService::run(
                     rpc_client.clone(),
                     config.websocket_url.clone(),
@@ -3256,19 +3280,45 @@ async fn send_deploy_messages(
 
                 let bind_socket = bind_to_unspecified()?;
 
-                let (transaction_sender, client) =
-                    ClientBuilder::new(Box::new(node_address_service))
-                        .cancel_token(cancel_token().clone())
-                        .bind_socket(bind_socket)
-                        .broadcaster(BackpressuredBroadcaster)
-                        .build()
-                        .expect("Failed to build TPU client");
+                let (transaction_sender, client) = ClientBuilder::new(Box::new(
+                    node_address_service,
+                ))
+                .cancel_token(cancel_token().child_token())
+                .bind_socket(bind_socket)
+                .broadcaster(BackpressuredBroadcaster)
+                .metric_reporter({
+                    let quic_sent = quic_sent.clone();
+                    move |stats: Arc<SendTransactionStats>, cancel: CancellationToken| async move {
+                        // read_and_reset() zeroes the counters, so poll
+                        // often and accumulate rather than sampling once.
+                        let mut tick = tokio::time::interval(Duration::from_millis(10));
+                        cancel
+                            .run_until_cancelled(async {
+                                loop {
+                                    tick.tick().await;
+                                    let view = stats.read_and_reset();
+                                    quic_sent.fetch_add(view.successfully_sent, Ordering::Relaxed);
+                                }
+                            })
+                            .await;
+                    }
+                })
+                .build()
+                .expect("Failed to build TPU client");
                 _tpu_client = client;
                 SendTransport::Tpu(transaction_sender)
             };
+            info!(
+                target: "deploy_metric",
+                "client_setup,{},{}",
+                setup_start.elapsed().as_micros(),
+                0,
+            );
 
             let versioned_write_messages = write_messages.into_iter().map(VersionedMessage::Legacy);
 
+            let write_start = Instant::now();
+            let num_write_messages = versioned_write_messages.len();
             let transaction_errors = send_and_confirm_transactions_in_parallel_v3(
                 rpc_client.clone(),
                 transport,
@@ -3288,6 +3338,26 @@ async fn send_deploy_messages(
             .flatten()
             .collect::<Vec<_>>();
 
+            // Covers signing, sending and confirming every write chunk. `count`
+            // is the chunk count, which is the real independent variable behind
+            // "small/medium/large" program.
+            info!(
+                target: "deploy_metric",
+                "write_chunks,{},{}",
+                write_start.elapsed().as_micros(),
+                num_write_messages,
+            );
+
+            // How many of the transactions we handed to tpu-client-next actually
+            // reached a QUIC stream. Compare against num_write_messages + resent_txs:
+            // the shortfall is what the transport silently discarded.
+            info!(
+                target: "deploy_metric",
+                "quic_sent,{},{}",
+                quic_sent.load(Ordering::Relaxed),
+                num_write_messages,
+            );
+
             if !transaction_errors.is_empty() {
                 for transaction_error in &transaction_errors {
                     error!("{transaction_error:?}");
@@ -3304,6 +3374,7 @@ async fn send_deploy_messages(
     {
         trace!("Deploying program");
 
+        let final_tx_start = Instant::now();
         simulate_and_update_compute_unit_limit(compute_unit_limit, &rpc_client, &mut message)
             .await?;
         let mut final_tx = Transaction::new_unsigned(message);
@@ -3319,6 +3390,14 @@ async fn send_deploy_messages(
             )
             .await
             .map_err(|e| format!("Deploying program failed: {e}"))?;
+        // Always sent over RPC, never the TPU transport, so this span is the
+        // control: it should not move between variants.
+        info!(
+            target: "deploy_metric",
+            "final_tx,{},{}",
+            final_tx_start.elapsed().as_micros(),
+            0,
+        );
         return Ok(Some(result));
     }
 

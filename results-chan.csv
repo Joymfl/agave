@@ -1,0 +1,631 @@
+run,netem,netem_spec,variant,program,program_bytes,outcome,metric,us,count
+0,clean,,baseline,jupiter-v6,2892224,success,wall,20649970,0
+0,clean,,baseline,jupiter-v6,2892224,success,client_setup,565,0
+0,clean,,baseline,jupiter-v6,2892224,success,first_send,900,0
+0,clean,,baseline,jupiter-v6,2892224,success,send_phase,18653954,1866
+0,clean,,baseline,jupiter-v6,2892224,success,resend_rounds,1,92
+0,clean,,baseline,jupiter-v6,2892224,success,resent_txs,92,0
+0,clean,,baseline,jupiter-v6,2892224,success,resend_time,911080,0
+0,clean,,baseline,jupiter-v6,2892224,success,confirm_phase,911152,0
+0,clean,,baseline,jupiter-v6,2892224,success,write_chunks,19619180,1866
+0,clean,,baseline,jupiter-v6,2892224,success,final_tx,510555,0
+0,clean,,baseline,jupiter-v6,2892224,success,total_deploy,20633842,2892224
+0,clean,,v3_chan4096,jupiter-v6,2892224,success,wall,20621745,0
+0,clean,,v3_chan4096,jupiter-v6,2892224,success,client_setup,473,0
+0,clean,,v3_chan4096,jupiter-v6,2892224,success,first_send,5,0
+0,clean,,v3_chan4096,jupiter-v6,2892224,success,send_phase,18652014,1866
+0,clean,,v3_chan4096,jupiter-v6,2892224,success,resend_rounds,1,92
+0,clean,,v3_chan4096,jupiter-v6,2892224,success,resent_txs,92,0
+0,clean,,v3_chan4096,jupiter-v6,2892224,success,resend_time,910929,0
+0,clean,,v3_chan4096,jupiter-v6,2892224,success,confirm_phase,911009,0
+0,clean,,v3_chan4096,jupiter-v6,2892224,success,write_chunks,19591401,1866
+0,clean,,v3_chan4096,jupiter-v6,2892224,success,quic_sent,1957,1866
+0,clean,,v3_chan4096,jupiter-v6,2892224,success,final_tx,510529,0
+0,clean,,v3_chan4096,jupiter-v6,2892224,success,total_deploy,20606575,2892224
+0,clean,,v3_chan2,jupiter-v6,2892224,success,wall,20616792,0
+0,clean,,v3_chan2,jupiter-v6,2892224,success,client_setup,331,0
+0,clean,,v3_chan2,jupiter-v6,2892224,success,first_send,3,0
+0,clean,,v3_chan2,jupiter-v6,2892224,success,send_phase,18651975,1866
+0,clean,,v3_chan2,jupiter-v6,2892224,success,resend_rounds,1,91
+0,clean,,v3_chan2,jupiter-v6,2892224,success,resent_txs,91,0
+0,clean,,v3_chan2,jupiter-v6,2892224,success,resend_time,901512,0
+0,clean,,v3_chan2,jupiter-v6,2892224,success,confirm_phase,901575,0
+0,clean,,v3_chan2,jupiter-v6,2892224,success,write_chunks,19585010,1866
+0,clean,,v3_chan2,jupiter-v6,2892224,success,quic_sent,1956,1866
+0,clean,,v3_chan2,jupiter-v6,2892224,success,final_tx,511137,0
+0,clean,,v3_chan2,jupiter-v6,2892224,success,total_deploy,20600858,2892224
+0,clean,,v3_chan4096,token-2022,1382016,success,wall,7417127,0
+0,clean,,v3_chan4096,token-2022,1382016,success,client_setup,408,0
+0,clean,,v3_chan4096,token-2022,1382016,success,first_send,2,0
+0,clean,,v3_chan4096,token-2022,1382016,success,send_phase,5001063,501
+0,clean,,v3_chan4096,token-2022,1382016,success,resend_rounds,1,139
+0,clean,,v3_chan4096,token-2022,1382016,success,resent_txs,139,0
+0,clean,,v3_chan4096,token-2022,1382016,success,resend_time,1380748,0
+0,clean,,v3_chan4096,token-2022,1382016,success,confirm_phase,1380828,0
+0,clean,,v3_chan4096,token-2022,1382016,success,write_chunks,6390196,501
+0,clean,,v3_chan4096,token-2022,1382016,success,quic_sent,639,501
+0,clean,,v3_chan4096,token-2022,1382016,success,final_tx,505902,0
+0,clean,,v3_chan4096,token-2022,1382016,success,total_deploy,7399013,1382016
+0,clean,,v3_chan2,token-2022,1382016,success,wall,7412028,0
+0,clean,,v3_chan2,token-2022,1382016,success,client_setup,498,0
+0,clean,,v3_chan2,token-2022,1382016,success,first_send,2,0
+0,clean,,v3_chan2,token-2022,1382016,success,send_phase,5000640,501
+0,clean,,v3_chan2,token-2022,1382016,success,resend_rounds,1,139
+0,clean,,v3_chan2,token-2022,1382016,success,resent_txs,139,0
+0,clean,,v3_chan2,token-2022,1382016,success,resend_time,1380983,0
+0,clean,,v3_chan2,token-2022,1382016,success,confirm_phase,1381079,0
+0,clean,,v3_chan2,token-2022,1382016,success,write_chunks,6389865,501
+0,clean,,v3_chan2,token-2022,1382016,success,quic_sent,639,501
+0,clean,,v3_chan2,token-2022,1382016,success,final_tx,505785,0
+0,clean,,v3_chan2,token-2022,1382016,success,total_deploy,7398814,1382016
+0,clean,,baseline,token-2022,1382016,success,wall,7441793,0
+0,clean,,baseline,token-2022,1382016,success,client_setup,473,0
+0,clean,,baseline,token-2022,1382016,success,first_send,1157,0
+0,clean,,baseline,token-2022,1382016,success,send_phase,5001440,501
+0,clean,,baseline,token-2022,1382016,success,resend_rounds,1,141
+0,clean,,baseline,token-2022,1382016,success,resent_txs,141,0
+0,clean,,baseline,token-2022,1382016,success,resend_time,1400907,0
+0,clean,,baseline,token-2022,1382016,success,confirm_phase,1401031,0
+0,clean,,baseline,token-2022,1382016,success,write_chunks,6417399,501
+0,clean,,baseline,token-2022,1382016,success,final_tx,505840,0
+0,clean,,baseline,token-2022,1382016,success,total_deploy,7428719,1382016
+0,clean,,baseline,token,108600,success,wall,3088844,0
+0,clean,,baseline,token,108600,success,client_setup,506,0
+0,clean,,baseline,token,108600,success,first_send,1373,0
+0,clean,,baseline,token,108600,success,send_phase,1070763,108
+0,clean,,baseline,token,108600,success,resend_rounds,3,34
+0,clean,,baseline,token,108600,success,resent_txs,102,0
+0,clean,,baseline,token,108600,success,resend_time,993617,0
+0,clean,,baseline,token,108600,success,confirm_phase,993709,0
+0,clean,,baseline,token,108600,success,write_chunks,2068241,108
+0,clean,,baseline,token,108600,success,final_tx,502583,0
+0,clean,,baseline,token,108600,success,total_deploy,3074022,108600
+0,clean,,v3_chan2,token,108600,success,wall,3262870,0
+0,clean,,v3_chan2,token,108600,success,client_setup,568,0
+0,clean,,v3_chan2,token,108600,success,first_send,2,0
+0,clean,,v3_chan2,token,108600,success,send_phase,1070982,108
+0,clean,,v3_chan2,token,108600,success,resend_rounds,3,40
+0,clean,,v3_chan2,token,108600,success,resent_txs,120,0
+0,clean,,v3_chan2,token,108600,success,resend_time,1172893,0
+0,clean,,v3_chan2,token,108600,success,confirm_phase,1172988,0
+0,clean,,v3_chan2,token,108600,success,write_chunks,2245902,108
+0,clean,,v3_chan2,token,108600,success,quic_sent,227,108
+0,clean,,v3_chan2,token,108600,success,final_tx,502153,0
+0,clean,,v3_chan2,token,108600,success,total_deploy,3250678,108600
+0,clean,,v3_chan4096,token,108600,success,wall,3115908,0
+0,clean,,v3_chan4096,token,108600,success,client_setup,397,0
+0,clean,,v3_chan4096,token,108600,success,first_send,3,0
+0,clean,,v3_chan4096,token,108600,success,send_phase,1070616,108
+0,clean,,v3_chan4096,token,108600,success,resend_rounds,3,35
+0,clean,,v3_chan4096,token,108600,success,resent_txs,105,0
+0,clean,,v3_chan4096,token,108600,success,resend_time,1023806,0
+0,clean,,v3_chan4096,token,108600,success,confirm_phase,1023892,0
+0,clean,,v3_chan4096,token,108600,success,write_chunks,2096462,108
+0,clean,,v3_chan4096,token,108600,success,quic_sent,212,108
+0,clean,,v3_chan4096,token,108600,success,final_tx,502876,0
+0,clean,,v3_chan4096,token,108600,success,total_deploy,3101914,108600
+0,d100_l1,delay 100ms loss random 1%,baseline,jupiter-v6,2892224,success,wall,28131567,0
+0,d100_l1,delay 100ms loss random 1%,baseline,jupiter-v6,2892224,success,client_setup,1203366,0
+0,d100_l1,delay 100ms loss random 1%,baseline,jupiter-v6,2892224,success,first_send,802808,0
+0,d100_l1,delay 100ms loss random 1%,baseline,jupiter-v6,2892224,success,send_phase,18652656,1866
+0,d100_l1,delay 100ms loss random 1%,baseline,jupiter-v6,2892224,success,resend_rounds,1,225
+0,d100_l1,delay 100ms loss random 1%,baseline,jupiter-v6,2892224,success,resent_txs,225,0
+0,d100_l1,delay 100ms loss random 1%,baseline,jupiter-v6,2892224,success,resend_time,2241176,0
+0,d100_l1,delay 100ms loss random 1%,baseline,jupiter-v6,2892224,success,confirm_phase,2241274,0
+0,d100_l1,delay 100ms loss random 1%,baseline,jupiter-v6,2892224,success,write_chunks,21353634,1866
+0,d100_l1,delay 100ms loss random 1%,baseline,jupiter-v6,2892224,success,final_tx,1234835,0
+0,d100_l1,delay 100ms loss random 1%,baseline,jupiter-v6,2892224,success,total_deploy,26703007,2892224
+0,d100_l1,delay 100ms loss random 1%,v3_chan4096,jupiter-v6,2892224,success,wall,27569191,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan4096,jupiter-v6,2892224,success,client_setup,801391,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan4096,jupiter-v6,2892224,success,first_send,4,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan4096,jupiter-v6,2892224,success,send_phase,18652304,1866
+0,d100_l1,delay 100ms loss random 1%,v3_chan4096,jupiter-v6,2892224,success,resend_rounds,2,83
+0,d100_l1,delay 100ms loss random 1%,v3_chan4096,jupiter-v6,2892224,success,resent_txs,166,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan4096,jupiter-v6,2892224,success,resend_time,1642583,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan4096,jupiter-v6,2892224,success,confirm_phase,1642744,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan4096,jupiter-v6,2892224,success,write_chunks,20724954,1866
+0,d100_l1,delay 100ms loss random 1%,v3_chan4096,jupiter-v6,2892224,success,quic_sent,2031,1866
+0,d100_l1,delay 100ms loss random 1%,v3_chan4096,jupiter-v6,2892224,success,final_tx,1712450,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan4096,jupiter-v6,2892224,success,total_deploy,26148185,2892224
+0,d100_l1,delay 100ms loss random 1%,v3_chan2,jupiter-v6,2892224,success,wall,29865224,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan2,jupiter-v6,2892224,success,client_setup,801819,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan2,jupiter-v6,2892224,success,first_send,4,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan2,jupiter-v6,2892224,success,send_phase,18652763,1866
+0,d100_l1,delay 100ms loss random 1%,v3_chan2,jupiter-v6,2892224,success,resend_rounds,5,352
+0,d100_l1,delay 100ms loss random 1%,v3_chan2,jupiter-v6,2892224,success,resent_txs,472,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan2,jupiter-v6,2892224,success,resend_time,4675867,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan2,jupiter-v6,2892224,success,confirm_phase,4676151,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan2,jupiter-v6,2892224,success,write_chunks,23759666,1866
+0,d100_l1,delay 100ms loss random 1%,v3_chan2,jupiter-v6,2892224,success,quic_sent,2203,1866
+0,d100_l1,delay 100ms loss random 1%,v3_chan2,jupiter-v6,2892224,success,final_tx,811691,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan2,jupiter-v6,2892224,success,total_deploy,27985703,2892224
+0,d100_l1,delay 100ms loss random 1%,baseline,token-2022,1382016,success,wall,12742823,0
+0,d100_l1,delay 100ms loss random 1%,baseline,token-2022,1382016,success,client_setup,1201727,0
+0,d100_l1,delay 100ms loss random 1%,baseline,token-2022,1382016,success,first_send,401826,0
+0,d100_l1,delay 100ms loss random 1%,baseline,token-2022,1382016,success,send_phase,5000757,501
+0,d100_l1,delay 100ms loss random 1%,baseline,token-2022,1382016,success,resend_rounds,1,120
+0,d100_l1,delay 100ms loss random 1%,baseline,token-2022,1382016,success,resent_txs,120,0
+0,d100_l1,delay 100ms loss random 1%,baseline,token-2022,1382016,success,resend_time,1191103,0
+0,d100_l1,delay 100ms loss random 1%,baseline,token-2022,1382016,success,confirm_phase,1191187,0
+0,d100_l1,delay 100ms loss random 1%,baseline,token-2022,1382016,success,write_chunks,6608329,501
+0,d100_l1,delay 100ms loss random 1%,baseline,token-2022,1382016,success,final_tx,805638,0
+0,d100_l1,delay 100ms loss random 1%,baseline,token-2022,1382016,success,total_deploy,11522663,1382016
+0,d100_l1,delay 100ms loss random 1%,v3_chan4096,token-2022,1382016,success,wall,11915863,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan4096,token-2022,1382016,success,client_setup,801985,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan4096,token-2022,1382016,success,first_send,12,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan4096,token-2022,1382016,success,send_phase,5001515,501
+0,d100_l1,delay 100ms loss random 1%,v3_chan4096,token-2022,1382016,success,resend_rounds,3,140
+0,d100_l1,delay 100ms loss random 1%,v3_chan4096,token-2022,1382016,success,resent_txs,170,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan4096,token-2022,1382016,success,resend_time,1672515,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan4096,token-2022,1382016,success,confirm_phase,1672640,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan4096,token-2022,1382016,success,write_chunks,7083726,501
+0,d100_l1,delay 100ms loss random 1%,v3_chan4096,token-2022,1382016,success,quic_sent,670,501
+0,d100_l1,delay 100ms loss random 1%,v3_chan4096,token-2022,1382016,success,final_tx,805795,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan4096,token-2022,1382016,success,total_deploy,10697245,1382016
+0,d100_l1,delay 100ms loss random 1%,v3_chan2,token-2022,1382016,success,wall,15115875,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan2,token-2022,1382016,success,client_setup,801741,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan2,token-2022,1382016,success,first_send,4,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan2,token-2022,1382016,success,send_phase,5001207,501
+0,d100_l1,delay 100ms loss random 1%,v3_chan2,token-2022,1382016,success,resend_rounds,6,198
+0,d100_l1,delay 100ms loss random 1%,v3_chan2,token-2022,1382016,success,resent_txs,273,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan2,token-2022,1382016,success,resend_time,2675881,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan2,token-2022,1382016,success,confirm_phase,2676242,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan2,token-2022,1382016,success,write_chunks,8279061,501
+0,d100_l1,delay 100ms loss random 1%,v3_chan2,token-2022,1382016,success,quic_sent,735,501
+0,d100_l1,delay 100ms loss random 1%,v3_chan2,token-2022,1382016,success,final_tx,1708395,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan2,token-2022,1382016,success,total_deploy,13696609,1382016
+0,d100_l1,delay 100ms loss random 1%,v3_chan2,token,108600,success,wall,11282171,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan2,token,108600,success,client_setup,802261,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan2,token,108600,success,first_send,3,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan2,token,108600,success,send_phase,1071670,108
+0,d100_l1,delay 100ms loss random 1%,v3_chan2,token,108600,success,resend_rounds,81,108
+0,d100_l1,delay 100ms loss random 1%,v3_chan2,token,108600,success,resent_txs,326,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan2,token,108600,success,resend_time,2535928,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan2,token,108600,success,confirm_phase,2537413,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan2,token,108600,success,write_chunks,4012120,108
+0,d100_l1,delay 100ms loss random 1%,v3_chan2,token,108600,success,quic_sent,395,108
+0,d100_l1,delay 100ms loss random 1%,v3_chan2,token,108600,success,final_tx,1705428,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan2,token,108600,success,total_deploy,9861728,108600
+0,d100_l1,delay 100ms loss random 1%,baseline,token,108600,success,wall,12075735,0
+0,d100_l1,delay 100ms loss random 1%,baseline,token,108600,success,client_setup,1202425,0
+0,d100_l1,delay 100ms loss random 1%,baseline,token,108600,success,first_send,401682,0
+0,d100_l1,delay 100ms loss random 1%,baseline,token,108600,success,send_phase,1071300,108
+0,d100_l1,delay 100ms loss random 1%,baseline,token,108600,success,resend_rounds,2,108
+0,d100_l1,delay 100ms loss random 1%,baseline,token,108600,success,resent_txs,171,0
+0,d100_l1,delay 100ms loss random 1%,baseline,token,108600,success,resend_time,1692427,0
+0,d100_l1,delay 100ms loss random 1%,baseline,token,108600,success,confirm_phase,1692580,0
+0,d100_l1,delay 100ms loss random 1%,baseline,token,108600,success,write_chunks,3169262,108
+0,d100_l1,delay 100ms loss random 1%,baseline,token,108600,success,final_tx,2119220,0
+0,d100_l1,delay 100ms loss random 1%,baseline,token,108600,success,total_deploy,9833787,108600
+0,d100_l1,delay 100ms loss random 1%,v3_chan4096,token,108600,success,wall,8728505,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan4096,token,108600,success,client_setup,801835,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan4096,token,108600,success,first_send,7,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan4096,token,108600,success,send_phase,1070519,108
+0,d100_l1,delay 100ms loss random 1%,v3_chan4096,token,108600,success,resend_rounds,2,108
+0,d100_l1,delay 100ms loss random 1%,v3_chan4096,token,108600,success,resent_txs,154,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan4096,token,108600,success,resend_time,1521737,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan4096,token,108600,success,confirm_phase,1521836,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan4096,token,108600,success,write_chunks,2995775,108
+0,d100_l1,delay 100ms loss random 1%,v3_chan4096,token,108600,success,quic_sent,261,108
+0,d100_l1,delay 100ms loss random 1%,v3_chan4096,token,108600,success,final_tx,1705551,0
+0,d100_l1,delay 100ms loss random 1%,v3_chan4096,token,108600,success,total_deploy,7508969,108600
+1,clean,,v3_chan2,jupiter-v6,2892224,success,wall,20398853,0
+1,clean,,v3_chan2,jupiter-v6,2892224,success,client_setup,808,0
+1,clean,,v3_chan2,jupiter-v6,2892224,success,first_send,6,0
+1,clean,,v3_chan2,jupiter-v6,2892224,success,send_phase,18652384,1866
+1,clean,,v3_chan2,jupiter-v6,2892224,success,resend_rounds,1,68
+1,clean,,v3_chan2,jupiter-v6,2892224,success,resent_txs,68,0
+1,clean,,v3_chan2,jupiter-v6,2892224,success,resend_time,670803,0
+1,clean,,v3_chan2,jupiter-v6,2892224,success,confirm_phase,670880,0
+1,clean,,v3_chan2,jupiter-v6,2892224,success,write_chunks,19354995,1866
+1,clean,,v3_chan2,jupiter-v6,2892224,success,quic_sent,1933,1866
+1,clean,,v3_chan2,jupiter-v6,2892224,success,final_tx,513822,0
+1,clean,,v3_chan2,jupiter-v6,2892224,success,total_deploy,20375798,2892224
+1,clean,,baseline,jupiter-v6,2892224,success,wall,20637446,0
+1,clean,,baseline,jupiter-v6,2892224,success,client_setup,912,0
+1,clean,,baseline,jupiter-v6,2892224,success,first_send,1758,0
+1,clean,,baseline,jupiter-v6,2892224,success,send_phase,18653600,1866
+1,clean,,baseline,jupiter-v6,2892224,success,resend_rounds,1,89
+1,clean,,baseline,jupiter-v6,2892224,success,resent_txs,89,0
+1,clean,,baseline,jupiter-v6,2892224,success,resend_time,880869,0
+1,clean,,baseline,jupiter-v6,2892224,success,confirm_phase,880989,0
+1,clean,,baseline,jupiter-v6,2892224,success,write_chunks,19594106,1866
+1,clean,,baseline,jupiter-v6,2892224,success,final_tx,514798,0
+1,clean,,baseline,jupiter-v6,2892224,success,total_deploy,20615186,2892224
+1,clean,,v3_chan4096,jupiter-v6,2892224,success,wall,21123726,0
+1,clean,,v3_chan4096,jupiter-v6,2892224,success,client_setup,548,0
+1,clean,,v3_chan4096,jupiter-v6,2892224,success,first_send,9,0
+1,clean,,v3_chan4096,jupiter-v6,2892224,success,send_phase,18652307,1866
+1,clean,,v3_chan4096,jupiter-v6,2892224,success,resend_rounds,11,89
+1,clean,,v3_chan4096,jupiter-v6,2892224,success,resent_txs,149,0
+1,clean,,v3_chan4096,jupiter-v6,2892224,success,resend_time,1391254,0
+1,clean,,v3_chan4096,jupiter-v6,2892224,success,confirm_phase,1391587,0
+1,clean,,v3_chan4096,jupiter-v6,2892224,success,write_chunks,20078709,1866
+1,clean,,v3_chan4096,jupiter-v6,2892224,success,quic_sent,2014,1866
+1,clean,,v3_chan4096,jupiter-v6,2892224,success,final_tx,512223,0
+1,clean,,v3_chan4096,jupiter-v6,2892224,success,total_deploy,21099852,2892224
+1,clean,,v3_chan4096,token-2022,1382016,success,wall,7219815,0
+1,clean,,v3_chan4096,token-2022,1382016,success,client_setup,639,0
+1,clean,,v3_chan4096,token-2022,1382016,success,first_send,3,0
+1,clean,,v3_chan4096,token-2022,1382016,success,send_phase,5001200,501
+1,clean,,v3_chan4096,token-2022,1382016,success,resend_rounds,1,119
+1,clean,,v3_chan4096,token-2022,1382016,success,resent_txs,119,0
+1,clean,,v3_chan4096,token-2022,1382016,success,resend_time,1180951,0
+1,clean,,v3_chan4096,token-2022,1382016,success,confirm_phase,1181032,0
+1,clean,,v3_chan4096,token-2022,1382016,success,write_chunks,6190657,501
+1,clean,,v3_chan4096,token-2022,1382016,success,quic_sent,619,501
+1,clean,,v3_chan4096,token-2022,1382016,success,final_tx,507346,0
+1,clean,,v3_chan4096,token-2022,1382016,success,total_deploy,7204267,1382016
+1,clean,,baseline,token-2022,1382016,success,wall,7419042,0
+1,clean,,baseline,token-2022,1382016,success,client_setup,861,0
+1,clean,,baseline,token-2022,1382016,success,first_send,985,0
+1,clean,,baseline,token-2022,1382016,success,send_phase,5001301,501
+1,clean,,baseline,token-2022,1382016,success,resend_rounds,1,138
+1,clean,,baseline,token-2022,1382016,success,resent_txs,138,0
+1,clean,,baseline,token-2022,1382016,success,resend_time,1371007,0
+1,clean,,baseline,token-2022,1382016,success,confirm_phase,1371123,0
+1,clean,,baseline,token-2022,1382016,success,write_chunks,6389225,501
+1,clean,,baseline,token-2022,1382016,success,final_tx,508331,0
+1,clean,,baseline,token-2022,1382016,success,total_deploy,7402631,1382016
+1,clean,,v3_chan2,token-2022,1382016,success,wall,7208404,0
+1,clean,,v3_chan2,token-2022,1382016,success,client_setup,550,0
+1,clean,,v3_chan2,token-2022,1382016,success,first_send,4,0
+1,clean,,v3_chan2,token-2022,1382016,success,send_phase,5001093,501
+1,clean,,v3_chan2,token-2022,1382016,success,resend_rounds,1,118
+1,clean,,v3_chan2,token-2022,1382016,success,resent_txs,118,0
+1,clean,,v3_chan2,token-2022,1382016,success,resend_time,1171121,0
+1,clean,,v3_chan2,token-2022,1382016,success,confirm_phase,1171225,0
+1,clean,,v3_chan2,token-2022,1382016,success,write_chunks,6181590,501
+1,clean,,v3_chan2,token-2022,1382016,success,quic_sent,618,501
+1,clean,,v3_chan2,token-2022,1382016,success,final_tx,506277,0
+1,clean,,v3_chan2,token-2022,1382016,success,total_deploy,7193647,1382016
+1,clean,,v3_chan4096,token,108600,success,wall,3120352,0
+1,clean,,v3_chan4096,token,108600,success,client_setup,432,0
+1,clean,,v3_chan4096,token,108600,success,first_send,4,0
+1,clean,,v3_chan4096,token,108600,success,send_phase,1071534,108
+1,clean,,v3_chan4096,token,108600,success,resend_rounds,3,35
+1,clean,,v3_chan4096,token,108600,success,resent_txs,105,0
+1,clean,,v3_chan4096,token,108600,success,resend_time,1022220,0
+1,clean,,v3_chan4096,token,108600,success,confirm_phase,1022374,0
+1,clean,,v3_chan4096,token,108600,success,write_chunks,2095891,108
+1,clean,,v3_chan4096,token,108600,success,quic_sent,212,108
+1,clean,,v3_chan4096,token,108600,success,final_tx,503455,0
+1,clean,,v3_chan4096,token,108600,success,total_deploy,3103952,108600
+1,clean,,v3_chan2,token,108600,success,wall,3083814,0
+1,clean,,v3_chan2,token,108600,success,client_setup,356,0
+1,clean,,v3_chan2,token,108600,success,first_send,4,0
+1,clean,,v3_chan2,token,108600,success,send_phase,1070752,108
+1,clean,,v3_chan2,token,108600,success,resend_rounds,7,15
+1,clean,,v3_chan2,token,108600,success,resent_txs,105,0
+1,clean,,v3_chan2,token,108600,success,resend_time,986493,0
+1,clean,,v3_chan2,token,108600,success,confirm_phase,986694,0
+1,clean,,v3_chan2,token,108600,success,write_chunks,2059830,108
+1,clean,,v3_chan2,token,108600,success,quic_sent,212,108
+1,clean,,v3_chan2,token,108600,success,final_tx,503986,0
+1,clean,,v3_chan2,token,108600,success,total_deploy,3067055,108600
+1,clean,,baseline,token,108600,success,wall,3066180,0
+1,clean,,baseline,token,108600,success,client_setup,606,0
+1,clean,,baseline,token,108600,success,first_send,1717,0
+1,clean,,baseline,token,108600,success,send_phase,1071381,108
+1,clean,,baseline,token,108600,success,resend_rounds,6,17
+1,clean,,baseline,token,108600,success,resent_txs,102,0
+1,clean,,baseline,token,108600,success,resend_time,966644,0
+1,clean,,baseline,token,108600,success,confirm_phase,966811,0
+1,clean,,baseline,token,108600,success,write_chunks,2042200,108
+1,clean,,baseline,token,108600,success,final_tx,504282,0
+1,clean,,baseline,token,108600,success,total_deploy,3051129,108600
+1,d100_l1,delay 100ms loss random 1%,v3_chan2,jupiter-v6,2892224,success,wall,29016545,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan2,jupiter-v6,2892224,success,client_setup,802157,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan2,jupiter-v6,2892224,success,first_send,16,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan2,jupiter-v6,2892224,success,send_phase,18653561,1866
+1,d100_l1,delay 100ms loss random 1%,v3_chan2,jupiter-v6,2892224,success,resend_rounds,6,232
+1,d100_l1,delay 100ms loss random 1%,v3_chan2,jupiter-v6,2892224,success,resent_txs,375,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan2,jupiter-v6,2892224,success,resend_time,3696686,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan2,jupiter-v6,2892224,success,confirm_phase,3697187,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan2,jupiter-v6,2892224,success,write_chunks,22781515,1866
+1,d100_l1,delay 100ms loss random 1%,v3_chan2,jupiter-v6,2892224,success,quic_sent,2156,1866
+1,d100_l1,delay 100ms loss random 1%,v3_chan2,jupiter-v6,2892224,success,final_tx,816511,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan2,jupiter-v6,2892224,success,total_deploy,27792118,2892224
+1,d100_l1,delay 100ms loss random 1%,baseline,jupiter-v6,2892224,success,wall,29907890,0
+1,d100_l1,delay 100ms loss random 1%,baseline,jupiter-v6,2892224,success,client_setup,1202914,0
+1,d100_l1,delay 100ms loss random 1%,baseline,jupiter-v6,2892224,success,first_send,402105,0
+1,d100_l1,delay 100ms loss random 1%,baseline,jupiter-v6,2892224,success,send_phase,18802934,1866
+1,d100_l1,delay 100ms loss random 1%,baseline,jupiter-v6,2892224,success,resend_rounds,1,376
+1,d100_l1,delay 100ms loss random 1%,baseline,jupiter-v6,2892224,success,resent_txs,376,0
+1,d100_l1,delay 100ms loss random 1%,baseline,jupiter-v6,2892224,success,resend_time,3751096,0
+1,d100_l1,delay 100ms loss random 1%,baseline,jupiter-v6,2892224,success,confirm_phase,3751266,0
+1,d100_l1,delay 100ms loss random 1%,baseline,jupiter-v6,2892224,success,write_chunks,23017105,1866
+1,d100_l1,delay 100ms loss random 1%,baseline,jupiter-v6,2892224,success,final_tx,1640389,0
+1,d100_l1,delay 100ms loss random 1%,baseline,jupiter-v6,2892224,success,total_deploy,27868996,2892224
+1,d100_l1,delay 100ms loss random 1%,v3_chan4096,jupiter-v6,2892224,success,wall,29299191,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan4096,jupiter-v6,2892224,success,client_setup,801797,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan4096,jupiter-v6,2892224,success,first_send,3,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan4096,jupiter-v6,2892224,success,send_phase,18651766,1866
+1,d100_l1,delay 100ms loss random 1%,v3_chan4096,jupiter-v6,2892224,success,resend_rounds,1,236
+1,d100_l1,delay 100ms loss random 1%,v3_chan4096,jupiter-v6,2892224,success,resent_txs,236,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan4096,jupiter-v6,2892224,success,resend_time,2351647,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan4096,jupiter-v6,2892224,success,confirm_phase,2351790,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan4096,jupiter-v6,2892224,success,write_chunks,21640278,1866
+1,d100_l1,delay 100ms loss random 1%,v3_chan4096,jupiter-v6,2892224,success,quic_sent,2101,1866
+1,d100_l1,delay 100ms loss random 1%,v3_chan4096,jupiter-v6,2892224,success,final_tx,1713995,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan4096,jupiter-v6,2892224,success,total_deploy,27067600,2892224
+1,d100_l1,delay 100ms loss random 1%,v3_chan4096,token-2022,1382016,success,wall,11829184,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan4096,token-2022,1382016,success,client_setup,802180,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan4096,token-2022,1382016,success,first_send,4,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan4096,token-2022,1382016,success,send_phase,5001478,501
+1,d100_l1,delay 100ms loss random 1%,v3_chan4096,token-2022,1382016,success,resend_rounds,2,60
+1,d100_l1,delay 100ms loss random 1%,v3_chan4096,token-2022,1382016,success,resent_txs,120,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan4096,token-2022,1382016,success,resend_time,1182035,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan4096,token-2022,1382016,success,confirm_phase,1182184,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan4096,token-2022,1382016,success,write_chunks,6593352,501
+1,d100_l1,delay 100ms loss random 1%,v3_chan4096,token-2022,1382016,success,quic_sent,620,501
+1,d100_l1,delay 100ms loss random 1%,v3_chan4096,token-2022,1382016,success,final_tx,806670,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan4096,token-2022,1382016,success,total_deploy,10208845,1382016
+1,d100_l1,delay 100ms loss random 1%,baseline,token-2022,1382016,success,wall,13879618,0
+1,d100_l1,delay 100ms loss random 1%,baseline,token-2022,1382016,success,client_setup,1202658,0
+1,d100_l1,delay 100ms loss random 1%,baseline,token-2022,1382016,success,first_send,401353,0
+1,d100_l1,delay 100ms loss random 1%,baseline,token-2022,1382016,success,send_phase,5001359,501
+1,d100_l1,delay 100ms loss random 1%,baseline,token-2022,1382016,success,resend_rounds,1,123
+1,d100_l1,delay 100ms loss random 1%,baseline,token-2022,1382016,success,resent_txs,123,0
+1,d100_l1,delay 100ms loss random 1%,baseline,token-2022,1382016,success,resend_time,1220799,0
+1,d100_l1,delay 100ms loss random 1%,baseline,token-2022,1382016,success,confirm_phase,1220880,0
+1,d100_l1,delay 100ms loss random 1%,baseline,token-2022,1382016,success,write_chunks,6640692,501
+1,d100_l1,delay 100ms loss random 1%,baseline,token-2022,1382016,success,final_tx,1708242,0
+1,d100_l1,delay 100ms loss random 1%,baseline,token-2022,1382016,success,total_deploy,12460439,1382016
+1,d100_l1,delay 100ms loss random 1%,v3_chan2,token-2022,1382016,success,wall,15418965,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan2,token-2022,1382016,success,client_setup,801967,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan2,token-2022,1382016,success,first_send,5,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan2,token-2022,1382016,success,send_phase,5001596,501
+1,d100_l1,delay 100ms loss random 1%,v3_chan2,token-2022,1382016,success,resend_rounds,4,218
+1,d100_l1,delay 100ms loss random 1%,v3_chan2,token-2022,1382016,success,resent_txs,320,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan2,token-2022,1382016,success,resend_time,3165716,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan2,token-2022,1382016,success,confirm_phase,3166054,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan2,token-2022,1382016,success,write_chunks,8576845,501
+1,d100_l1,delay 100ms loss random 1%,v3_chan2,token-2022,1382016,success,quic_sent,742,501
+1,d100_l1,delay 100ms loss random 1%,v3_chan2,token-2022,1382016,success,final_tx,1709775,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan2,token-2022,1382016,success,total_deploy,13996693,1382016
+1,d100_l1,delay 100ms loss random 1%,v3_chan2,token,108600,success,wall,9367509,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan2,token,108600,success,client_setup,801929,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan2,token,108600,success,first_send,6,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan2,token,108600,success,send_phase,1071453,108
+1,d100_l1,delay 100ms loss random 1%,v3_chan2,token,108600,success,resend_rounds,4,108
+1,d100_l1,delay 100ms loss random 1%,v3_chan2,token,108600,success,resent_txs,270,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan2,token,108600,success,resend_time,2664976,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan2,token,108600,success,confirm_phase,2665291,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan2,token,108600,success,write_chunks,4139305,108
+1,d100_l1,delay 100ms loss random 1%,v3_chan2,token,108600,success,quic_sent,279,108
+1,d100_l1,delay 100ms loss random 1%,v3_chan2,token,108600,success,final_tx,803239,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan2,token,108600,success,total_deploy,7749822,108600
+1,d100_l1,delay 100ms loss random 1%,baseline,token,108600,success,wall,8598806,0
+1,d100_l1,delay 100ms loss random 1%,baseline,token,108600,success,client_setup,1202917,0
+1,d100_l1,delay 100ms loss random 1%,baseline,token,108600,success,first_send,402002,0
+1,d100_l1,delay 100ms loss random 1%,baseline,token,108600,success,send_phase,1071533,108
+1,d100_l1,delay 100ms loss random 1%,baseline,token,108600,success,resend_rounds,2,108
+1,d100_l1,delay 100ms loss random 1%,baseline,token,108600,success,resent_txs,191,0
+1,d100_l1,delay 100ms loss random 1%,baseline,token,108600,success,resend_time,1891735,0
+1,d100_l1,delay 100ms loss random 1%,baseline,token,108600,success,confirm_phase,1891895,0
+1,d100_l1,delay 100ms loss random 1%,baseline,token,108600,success,write_chunks,3368691,108
+1,d100_l1,delay 100ms loss random 1%,baseline,token,108600,success,final_tx,802731,0
+1,d100_l1,delay 100ms loss random 1%,baseline,token,108600,success,total_deploy,7380154,108600
+1,d100_l1,delay 100ms loss random 1%,v3_chan4096,token,108600,success,wall,8992617,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan4096,token,108600,success,client_setup,802019,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan4096,token,108600,success,first_send,3,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan4096,token,108600,success,send_phase,1071093,108
+1,d100_l1,delay 100ms loss random 1%,v3_chan4096,token,108600,success,resend_rounds,2,108
+1,d100_l1,delay 100ms loss random 1%,v3_chan4096,token,108600,success,resent_txs,147,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan4096,token,108600,success,resend_time,1452097,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan4096,token,108600,success,confirm_phase,1452246,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan4096,token,108600,success,write_chunks,2926734,108
+1,d100_l1,delay 100ms loss random 1%,v3_chan4096,token,108600,success,quic_sent,254,108
+1,d100_l1,delay 100ms loss random 1%,v3_chan4096,token,108600,success,final_tx,803005,0
+1,d100_l1,delay 100ms loss random 1%,v3_chan4096,token,108600,success,total_deploy,6537087,108600
+2,clean,,baseline,jupiter-v6,2892224,success,wall,20689950,0
+2,clean,,baseline,jupiter-v6,2892224,success,client_setup,649,0
+2,clean,,baseline,jupiter-v6,2892224,success,first_send,1628,0
+2,clean,,baseline,jupiter-v6,2892224,success,send_phase,18653973,1866
+2,clean,,baseline,jupiter-v6,2892224,success,resend_rounds,1,93
+2,clean,,baseline,jupiter-v6,2892224,success,resent_txs,93,0
+2,clean,,baseline,jupiter-v6,2892224,success,resend_time,921187,0
+2,clean,,baseline,jupiter-v6,2892224,success,confirm_phase,921330,0
+2,clean,,baseline,jupiter-v6,2892224,success,write_chunks,19644737,1866
+2,clean,,baseline,jupiter-v6,2892224,success,final_tx,514558,0
+2,clean,,baseline,jupiter-v6,2892224,success,total_deploy,20665904,2892224
+2,clean,,v3_chan2,jupiter-v6,2892224,success,wall,20421493,0
+2,clean,,v3_chan2,jupiter-v6,2892224,success,client_setup,400,0
+2,clean,,v3_chan2,jupiter-v6,2892224,success,first_send,3,0
+2,clean,,v3_chan2,jupiter-v6,2892224,success,send_phase,18652638,1866
+2,clean,,v3_chan2,jupiter-v6,2892224,success,resend_rounds,1,70
+2,clean,,v3_chan2,jupiter-v6,2892224,success,resent_txs,70,0
+2,clean,,v3_chan2,jupiter-v6,2892224,success,resend_time,691292,0
+2,clean,,v3_chan2,jupiter-v6,2892224,success,confirm_phase,691374,0
+2,clean,,v3_chan2,jupiter-v6,2892224,success,write_chunks,19375967,1866
+2,clean,,v3_chan2,jupiter-v6,2892224,success,quic_sent,1935,1866
+2,clean,,v3_chan2,jupiter-v6,2892224,success,final_tx,515100,0
+2,clean,,v3_chan2,jupiter-v6,2892224,success,total_deploy,20398905,2892224
+2,clean,,v3_chan4096,jupiter-v6,2892224,success,wall,21141134,0
+2,clean,,v3_chan4096,jupiter-v6,2892224,success,client_setup,1192,0
+2,clean,,v3_chan4096,jupiter-v6,2892224,success,first_send,8,0
+2,clean,,v3_chan4096,jupiter-v6,2892224,success,send_phase,18652509,1866
+2,clean,,v3_chan4096,jupiter-v6,2892224,success,resend_rounds,14,88
+2,clean,,v3_chan4096,jupiter-v6,2892224,success,resent_txs,153,0
+2,clean,,v3_chan4096,jupiter-v6,2892224,success,resend_time,1406219,0
+2,clean,,v3_chan4096,jupiter-v6,2892224,success,confirm_phase,1406650,0
+2,clean,,v3_chan4096,jupiter-v6,2892224,success,write_chunks,20094751,1866
+2,clean,,v3_chan4096,jupiter-v6,2892224,success,quic_sent,2018,1866
+2,clean,,v3_chan4096,jupiter-v6,2892224,success,final_tx,516971,0
+2,clean,,v3_chan4096,jupiter-v6,2892224,success,total_deploy,21118953,2892224
+2,clean,,v3_chan4096,token-2022,1382016,success,wall,7384247,0
+2,clean,,v3_chan4096,token-2022,1382016,success,client_setup,680,0
+2,clean,,v3_chan4096,token-2022,1382016,success,first_send,4,0
+2,clean,,v3_chan4096,token-2022,1382016,success,send_phase,5001107,501
+2,clean,,v3_chan4096,token-2022,1382016,success,resend_rounds,1,135
+2,clean,,v3_chan4096,token-2022,1382016,success,resent_txs,135,0
+2,clean,,v3_chan4096,token-2022,1382016,success,resend_time,1341018,0
+2,clean,,v3_chan4096,token-2022,1382016,success,confirm_phase,1341123,0
+2,clean,,v3_chan4096,token-2022,1382016,success,write_chunks,6350712,501
+2,clean,,v3_chan4096,token-2022,1382016,success,quic_sent,635,501
+2,clean,,v3_chan4096,token-2022,1382016,success,final_tx,506916,0
+2,clean,,v3_chan4096,token-2022,1382016,success,total_deploy,7362430,1382016
+2,clean,,baseline,token-2022,1382016,success,wall,7446967,0
+2,clean,,baseline,token-2022,1382016,success,client_setup,979,0
+2,clean,,baseline,token-2022,1382016,success,first_send,1026,0
+2,clean,,baseline,token-2022,1382016,success,send_phase,5001712,501
+2,clean,,baseline,token-2022,1382016,success,resend_rounds,1,139
+2,clean,,baseline,token-2022,1382016,success,resent_txs,139,0
+2,clean,,baseline,token-2022,1382016,success,resend_time,1381820,0
+2,clean,,baseline,token-2022,1382016,success,confirm_phase,1382080,0
+2,clean,,baseline,token-2022,1382016,success,write_chunks,6400200,501
+2,clean,,baseline,token-2022,1382016,success,final_tx,507983,0
+2,clean,,baseline,token-2022,1382016,success,total_deploy,7418762,1382016
+2,clean,,v3_chan2,token-2022,1382016,success,wall,7212113,0
+2,clean,,v3_chan2,token-2022,1382016,success,client_setup,383,0
+2,clean,,v3_chan2,token-2022,1382016,success,first_send,4,0
+2,clean,,v3_chan2,token-2022,1382016,success,send_phase,5001860,501
+2,clean,,v3_chan2,token-2022,1382016,success,resend_rounds,1,118
+2,clean,,v3_chan2,token-2022,1382016,success,resent_txs,118,0
+2,clean,,v3_chan2,token-2022,1382016,success,resend_time,1170706,0
+2,clean,,v3_chan2,token-2022,1382016,success,confirm_phase,1170819,0
+2,clean,,v3_chan2,token-2022,1382016,success,write_chunks,6181250,501
+2,clean,,v3_chan2,token-2022,1382016,success,quic_sent,618,501
+2,clean,,v3_chan2,token-2022,1382016,success,final_tx,507327,0
+2,clean,,v3_chan2,token-2022,1382016,success,total_deploy,7191921,1382016
+2,clean,,baseline,token,108600,success,wall,3196389,0
+2,clean,,baseline,token,108600,success,client_setup,637,0
+2,clean,,baseline,token,108600,success,first_send,1043,0
+2,clean,,baseline,token,108600,success,send_phase,1071449,108
+2,clean,,baseline,token,108600,success,resend_rounds,3,37
+2,clean,,baseline,token,108600,success,resent_txs,111,0
+2,clean,,baseline,token,108600,success,resend_time,1083427,0
+2,clean,,baseline,token,108600,success,confirm_phase,1083592,0
+2,clean,,baseline,token,108600,success,write_chunks,2159769,108
+2,clean,,baseline,token,108600,success,final_tx,504156,0
+2,clean,,baseline,token,108600,success,total_deploy,3169592,108600
+2,clean,,v3_chan4096,token,108600,success,wall,3067259,0
+2,clean,,v3_chan4096,token,108600,success,client_setup,724,0
+2,clean,,v3_chan4096,token,108600,success,first_send,7,0
+2,clean,,v3_chan4096,token,108600,success,send_phase,1070645,108
+2,clean,,v3_chan4096,token,108600,success,resend_rounds,6,17
+2,clean,,v3_chan4096,token,108600,success,resent_txs,102,0
+2,clean,,v3_chan4096,token,108600,success,resend_time,967492,0
+2,clean,,v3_chan4096,token,108600,success,confirm_phase,967700,0
+2,clean,,v3_chan4096,token,108600,success,write_chunks,2040977,108
+2,clean,,v3_chan4096,token,108600,success,quic_sent,209,108
+2,clean,,v3_chan4096,token,108600,success,final_tx,504378,0
+2,clean,,v3_chan4096,token,108600,success,total_deploy,3049971,108600
+2,clean,,v3_chan2,token,108600,success,wall,3124342,0
+2,clean,,v3_chan2,token,108600,success,client_setup,604,0
+2,clean,,v3_chan2,token,108600,success,first_send,5,0
+2,clean,,v3_chan2,token,108600,success,send_phase,1071982,108
+2,clean,,v3_chan2,token,108600,success,resend_rounds,3,35
+2,clean,,v3_chan2,token,108600,success,resent_txs,105,0
+2,clean,,v3_chan2,token,108600,success,resend_time,1023028,0
+2,clean,,v3_chan2,token,108600,success,confirm_phase,1023226,0
+2,clean,,v3_chan2,token,108600,success,write_chunks,2097860,108
+2,clean,,v3_chan2,token,108600,success,quic_sent,212,108
+2,clean,,v3_chan2,token,108600,success,final_tx,504290,0
+2,clean,,v3_chan2,token,108600,success,total_deploy,3104972,108600
+2,d100_l1,delay 100ms loss random 1%,v3_chan4096,jupiter-v6,2892224,success,wall,28337966,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan4096,jupiter-v6,2892224,success,client_setup,801648,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan4096,jupiter-v6,2892224,success,first_send,3,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan4096,jupiter-v6,2892224,success,send_phase,18652486,1866
+2,d100_l1,delay 100ms loss random 1%,v3_chan4096,jupiter-v6,2892224,success,resend_rounds,1,241
+2,d100_l1,delay 100ms loss random 1%,v3_chan4096,jupiter-v6,2892224,success,resent_txs,241,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan4096,jupiter-v6,2892224,success,resend_time,2401158,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan4096,jupiter-v6,2892224,success,confirm_phase,2401280,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan4096,jupiter-v6,2892224,success,write_chunks,21685667,1866
+2,d100_l1,delay 100ms loss random 1%,v3_chan4096,jupiter-v6,2892224,success,quic_sent,2106,1866
+2,d100_l1,delay 100ms loss random 1%,v3_chan4096,jupiter-v6,2892224,success,final_tx,1717185,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan4096,jupiter-v6,2892224,success,total_deploy,27116205,2892224
+2,d100_l1,delay 100ms loss random 1%,baseline,jupiter-v6,2892224,success,wall,29356956,0
+2,d100_l1,delay 100ms loss random 1%,baseline,jupiter-v6,2892224,success,client_setup,1202110,0
+2,d100_l1,delay 100ms loss random 1%,baseline,jupiter-v6,2892224,success,first_send,401589,0
+2,d100_l1,delay 100ms loss random 1%,baseline,jupiter-v6,2892224,success,send_phase,19457577,1866
+2,d100_l1,delay 100ms loss random 1%,baseline,jupiter-v6,2892224,success,resend_rounds,1,308
+2,d100_l1,delay 100ms loss random 1%,baseline,jupiter-v6,2892224,success,resent_txs,308,0
+2,d100_l1,delay 100ms loss random 1%,baseline,jupiter-v6,2892224,success,resend_time,3071974,0
+2,d100_l1,delay 100ms loss random 1%,baseline,jupiter-v6,2892224,success,confirm_phase,3072287,0
+2,d100_l1,delay 100ms loss random 1%,baseline,jupiter-v6,2892224,success,write_chunks,22994934,1866
+2,d100_l1,delay 100ms loss random 1%,baseline,jupiter-v6,2892224,success,final_tx,821826,0
+2,d100_l1,delay 100ms loss random 1%,baseline,jupiter-v6,2892224,success,total_deploy,27931966,2892224
+2,d100_l1,delay 100ms loss random 1%,v3_chan2,jupiter-v6,2892224,success,wall,29133426,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan2,jupiter-v6,2892224,success,client_setup,801963,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan2,jupiter-v6,2892224,success,first_send,5,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan2,jupiter-v6,2892224,success,send_phase,18651937,1866
+2,d100_l1,delay 100ms loss random 1%,v3_chan2,jupiter-v6,2892224,success,resend_rounds,690,372
+2,d100_l1,delay 100ms loss random 1%,v3_chan2,jupiter-v6,2892224,success,resent_txs,1136,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan2,jupiter-v6,2892224,success,resend_time,5189536,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan2,jupiter-v6,2892224,success,confirm_phase,5194728,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan2,jupiter-v6,2892224,success,write_chunks,24282316,1866
+2,d100_l1,delay 100ms loss random 1%,v3_chan2,jupiter-v6,2892224,success,quic_sent,2243,1866
+2,d100_l1,delay 100ms loss random 1%,v3_chan2,jupiter-v6,2892224,success,final_tx,813475,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan2,jupiter-v6,2892224,success,total_deploy,27908491,2892224
+2,d100_l1,delay 100ms loss random 1%,baseline,token-2022,1382016,success,wall,13852057,0
+2,d100_l1,delay 100ms loss random 1%,baseline,token-2022,1382016,success,client_setup,1202659,0
+2,d100_l1,delay 100ms loss random 1%,baseline,token-2022,1382016,success,first_send,401773,0
+2,d100_l1,delay 100ms loss random 1%,baseline,token-2022,1382016,success,send_phase,5001883,501
+2,d100_l1,delay 100ms loss random 1%,baseline,token-2022,1382016,success,resend_rounds,1,120
+2,d100_l1,delay 100ms loss random 1%,baseline,token-2022,1382016,success,resent_txs,120,0
+2,d100_l1,delay 100ms loss random 1%,baseline,token-2022,1382016,success,resend_time,1191209,0
+2,d100_l1,delay 100ms loss random 1%,baseline,token-2022,1382016,success,confirm_phase,1191347,0
+2,d100_l1,delay 100ms loss random 1%,baseline,token-2022,1382016,success,write_chunks,6612240,501
+2,d100_l1,delay 100ms loss random 1%,baseline,token-2022,1382016,success,final_tx,1707813,0
+2,d100_l1,delay 100ms loss random 1%,baseline,token-2022,1382016,success,total_deploy,12431723,1382016
+2,d100_l1,delay 100ms loss random 1%,v3_chan2,token-2022,1382016,success,wall,15184880,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan2,token-2022,1382016,success,client_setup,801800,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan2,token-2022,1382016,success,first_send,3,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan2,token-2022,1382016,success,send_phase,5002439,501
+2,d100_l1,delay 100ms loss random 1%,v3_chan2,token-2022,1382016,success,resend_rounds,21,246
+2,d100_l1,delay 100ms loss random 1%,v3_chan2,token-2022,1382016,success,resent_txs,402,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan2,token-2022,1382016,success,resend_time,3831558,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan2,token-2022,1382016,success,confirm_phase,3832225,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan2,token-2022,1382016,success,write_chunks,9244865,501
+2,d100_l1,delay 100ms loss random 1%,v3_chan2,token-2022,1382016,success,quic_sent,864,501
+2,d100_l1,delay 100ms loss random 1%,v3_chan2,token-2022,1382016,success,final_tx,806839,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan2,token-2022,1382016,success,total_deploy,13762573,1382016
+2,d100_l1,delay 100ms loss random 1%,v3_chan4096,token-2022,1382016,success,wall,13446443,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan4096,token-2022,1382016,success,client_setup,802576,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan4096,token-2022,1382016,success,first_send,3,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan4096,token-2022,1382016,success,send_phase,5000981,501
+2,d100_l1,delay 100ms loss random 1%,v3_chan4096,token-2022,1382016,success,resend_rounds,2,84
+2,d100_l1,delay 100ms loss random 1%,v3_chan4096,token-2022,1382016,success,resent_txs,168,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan4096,token-2022,1382016,success,resend_time,1662221,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan4096,token-2022,1382016,success,confirm_phase,1662394,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan4096,token-2022,1382016,success,write_chunks,7072649,501
+2,d100_l1,delay 100ms loss random 1%,v3_chan4096,token-2022,1382016,success,quic_sent,668,501
+2,d100_l1,delay 100ms loss random 1%,v3_chan4096,token-2022,1382016,success,final_tx,1240045,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan4096,token-2022,1382016,success,total_deploy,12024951,1382016
+2,d100_l1,delay 100ms loss random 1%,baseline,token,108600,success,wall,10419447,0
+2,d100_l1,delay 100ms loss random 1%,baseline,token,108600,success,client_setup,1202844,0
+2,d100_l1,delay 100ms loss random 1%,baseline,token,108600,success,first_send,402744,0
+2,d100_l1,delay 100ms loss random 1%,baseline,token,108600,success,send_phase,1071269,108
+2,d100_l1,delay 100ms loss random 1%,baseline,token,108600,success,resend_rounds,2,108
+2,d100_l1,delay 100ms loss random 1%,baseline,token,108600,success,resent_txs,172,0
+2,d100_l1,delay 100ms loss random 1%,baseline,token,108600,success,resend_time,1702973,0
+2,d100_l1,delay 100ms loss random 1%,baseline,token,108600,success,confirm_phase,1703128,0
+2,d100_l1,delay 100ms loss random 1%,baseline,token,108600,success,write_chunks,3181313,108
+2,d100_l1,delay 100ms loss random 1%,baseline,token,108600,success,final_tx,1705503,0
+2,d100_l1,delay 100ms loss random 1%,baseline,token,108600,success,total_deploy,8998937,108600
+2,d100_l1,delay 100ms loss random 1%,v3_chan4096,token,108600,success,wall,10242848,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan4096,token,108600,success,client_setup,801800,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan4096,token,108600,success,first_send,6,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan4096,token,108600,success,send_phase,1070581,108
+2,d100_l1,delay 100ms loss random 1%,v3_chan4096,token,108600,success,resend_rounds,3,108
+2,d100_l1,delay 100ms loss random 1%,v3_chan4096,token,108600,success,resent_txs,158,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan4096,token,108600,success,resend_time,1553140,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan4096,token,108600,success,confirm_phase,1553323,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan4096,token,108600,success,write_chunks,3026994,108
+2,d100_l1,delay 100ms loss random 1%,v3_chan4096,token,108600,success,quic_sent,265,108
+2,d100_l1,delay 100ms loss random 1%,v3_chan4096,token,108600,success,final_tx,804051,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan4096,token,108600,success,total_deploy,7541328,108600
+2,d100_l1,delay 100ms loss random 1%,v3_chan2,token,108600,success,wall,9760306,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan2,token,108600,success,client_setup,802213,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan2,token,108600,success,first_send,4,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan2,token,108600,success,send_phase,1071390,108
+2,d100_l1,delay 100ms loss random 1%,v3_chan2,token,108600,success,resend_rounds,26,108
+2,d100_l1,delay 100ms loss random 1%,v3_chan2,token,108600,success,resent_txs,278,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan2,token,108600,success,resend_time,2550462,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan2,token,108600,success,confirm_phase,2551099,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan2,token,108600,success,write_chunks,4025370,108
+2,d100_l1,delay 100ms loss random 1%,v3_chan2,token,108600,success,quic_sent,347,108
+2,d100_l1,delay 100ms loss random 1%,v3_chan2,token,108600,success,final_tx,1704799,0
+2,d100_l1,delay 100ms loss random 1%,v3_chan2,token,108600,success,total_deploy,8538677,108600

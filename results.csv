@@ -1,0 +1,12 @@
+run,netem,netem_spec,variant,program,program_bytes,outcome,metric,us,count
+0,clean,,baseline,jupiter-v6,2892224,success,wall,20651995,0
+0,clean,,baseline,jupiter-v6,2892224,success,client_setup,475,0
+0,clean,,baseline,jupiter-v6,2892224,success,first_send,1059,0
+0,clean,,baseline,jupiter-v6,2892224,success,send_phase,18653165,1866
+0,clean,,baseline,jupiter-v6,2892224,success,resend_rounds,1,92
+0,clean,,baseline,jupiter-v6,2892224,success,resent_txs,92,0
+0,clean,,baseline,jupiter-v6,2892224,success,resend_time,911693,0
+0,clean,,baseline,jupiter-v6,2892224,success,confirm_phase,911773,0
+0,clean,,baseline,jupiter-v6,2892224,success,write_chunks,19620227,1866
+0,clean,,baseline,jupiter-v6,2892224,success,final_tx,512087,0
+0,clean,,baseline,jupiter-v6,2892224,success,total_deploy,20637039,2892224

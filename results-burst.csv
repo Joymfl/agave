@@ -1,0 +1,834 @@
+run,netem,netem_spec,variant,program,program_bytes,outcome,metric,us,count
+0,d25_l1,delay 25ms loss random 1%,tpu_next,jupiter-v6,2892224,success,wall,23648539,0
+0,d25_l1,delay 25ms loss random 1%,tpu_next,jupiter-v6,2892224,success,client_setup,200830,0
+0,d25_l1,delay 25ms loss random 1%,tpu_next,jupiter-v6,2892224,success,write_chunks,21157661,1866
+0,d25_l1,delay 25ms loss random 1%,tpu_next,jupiter-v6,2892224,success,final_tx,1087954,0
+0,d25_l1,delay 25ms loss random 1%,tpu_next,jupiter-v6,2892224,success,total_deploy,23212361,2892224
+0,d25_l1,delay 25ms loss random 1%,baseline,jupiter-v6,2892224,success,wall,22105559,0
+0,d25_l1,delay 25ms loss random 1%,baseline,jupiter-v6,2892224,success,client_setup,300882,0
+0,d25_l1,delay 25ms loss random 1%,baseline,jupiter-v6,2892224,success,write_chunks,19570778,1866
+0,d25_l1,delay 25ms loss random 1%,baseline,jupiter-v6,2892224,success,final_tx,810810,0
+0,d25_l1,delay 25ms loss random 1%,baseline,jupiter-v6,2892224,success,total_deploy,21788104,2892224
+0,d25_l1,delay 25ms loss random 1%,tpu_next,token-2022,1382016,success,wall,8334937,0
+0,d25_l1,delay 25ms loss random 1%,tpu_next,token-2022,1382016,success,client_setup,200720,0
+0,d25_l1,delay 25ms loss random 1%,tpu_next,token-2022,1382016,success,write_chunks,6460735,501
+0,d25_l1,delay 25ms loss random 1%,tpu_next,token-2022,1382016,success,final_tx,805926,0
+0,d25_l1,delay 25ms loss random 1%,tpu_next,token-2022,1382016,success,total_deploy,7969764,1382016
+0,d25_l1,delay 25ms loss random 1%,baseline,token-2022,1382016,success,wall,8809283,0
+0,d25_l1,delay 25ms loss random 1%,baseline,token-2022,1382016,success,client_setup,300908,0
+0,d25_l1,delay 25ms loss random 1%,baseline,token-2022,1382016,success,write_chunks,6521370,501
+0,d25_l1,delay 25ms loss random 1%,baseline,token-2022,1382016,success,final_tx,204201,0
+0,d25_l1,delay 25ms loss random 1%,baseline,token-2022,1382016,success,total_deploy,8394974,1382016
+0,d25_l1,delay 25ms loss random 1%,baseline,token,108600,success,wall,4901547,0
+0,d25_l1,delay 25ms loss random 1%,baseline,token,108600,success,client_setup,300947,0
+0,d25_l1,delay 25ms loss random 1%,baseline,token,108600,success,write_chunks,2329869,108
+0,d25_l1,delay 25ms loss random 1%,baseline,token,108600,success,final_tx,802940,0
+0,d25_l1,delay 25ms loss random 1%,baseline,token,108600,success,total_deploy,4537485,108600
+0,d25_l1,delay 25ms loss random 1%,tpu_next,token,108600,success,wall,5436726,0
+0,d25_l1,delay 25ms loss random 1%,tpu_next,token,108600,success,client_setup,200773,0
+0,d25_l1,delay 25ms loss random 1%,tpu_next,token,108600,success,write_chunks,2439172,108
+0,d25_l1,delay 25ms loss random 1%,tpu_next,token,108600,success,final_tx,1329881,0
+0,d25_l1,delay 25ms loss random 1%,tpu_next,token,108600,success,total_deploy,5072848,108600
+0,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,jupiter-v6,2892224,success,wall,22999379,0
+0,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,jupiter-v6,2892224,success,client_setup,200499,0
+0,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,jupiter-v6,2892224,success,write_chunks,20515632,1866
+0,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,jupiter-v6,2892224,success,final_tx,810238,0
+0,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,jupiter-v6,2892224,success,total_deploy,22632911,2892224
+0,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,jupiter-v6,2892224,success,wall,22514234,0
+0,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,jupiter-v6,2892224,success,client_setup,300820,0
+0,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,jupiter-v6,2892224,success,write_chunks,19980435,1866
+0,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,jupiter-v6,2892224,success,final_tx,809331,0
+0,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,jupiter-v6,2892224,success,total_deploy,22196548,2892224
+0,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token-2022,1382016,success,wall,9078233,0
+0,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token-2022,1382016,success,client_setup,200482,0
+0,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token-2022,1382016,success,write_chunks,6604930,501
+0,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token-2022,1382016,success,final_tx,804615,0
+0,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token-2022,1382016,success,total_deploy,8713181,1382016
+0,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token-2022,1382016,success,wall,9001506,0
+0,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token-2022,1382016,success,client_setup,301000,0
+0,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token-2022,1382016,success,write_chunks,6425147,501
+0,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token-2022,1382016,success,final_tx,806143,0
+0,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token-2022,1382016,success,total_deploy,8636705,1382016
+0,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token,108600,success,wall,4776994,0
+0,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token,108600,success,client_setup,200866,0
+0,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token,108600,success,write_chunks,2355546,108
+0,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token,108600,success,final_tx,804020,0
+0,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token,108600,success,total_deploy,4464751,108600
+0,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token,108600,success,wall,5171101,0
+0,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token,108600,success,client_setup,300785,0
+0,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token,108600,success,write_chunks,2600573,108
+0,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token,108600,success,final_tx,803267,0
+0,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token,108600,success,total_deploy,4807960,108600
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,wall,22819466,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,client_setup,200585,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,write_chunks,20937205,1866
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,final_tx,208468,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,total_deploy,22452309,2892224
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,wall,22033103,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,client_setup,300908,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,write_chunks,20051506,1866
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,final_tx,208807,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,total_deploy,21665959,2892224
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,wall,10531634,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,client_setup,200463,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,write_chunks,7525068,501
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,final_tx,1338988,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,total_deploy,10168935,1382016
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,wall,9004692,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,client_setup,300736,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,write_chunks,6430943,501
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,final_tx,805106,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,total_deploy,8640311,1382016
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,wall,4098925,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,client_setup,200808,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,write_chunks,2228524,108
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,final_tx,201985,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,total_deploy,3734811,108600
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,wall,4895508,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,client_setup,301077,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,write_chunks,2373307,108
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,final_tx,803448,0
+0,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,total_deploy,4581698,108600
+0,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,wall,22970146,0
+0,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,client_setup,311448,0
+0,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,write_chunks,20093366,1866
+0,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,final_tx,816181,0
+0,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,total_deploy,22605386,2892224
+0,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,wall,23102296,0
+0,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,client_setup,210730,0
+0,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,write_chunks,20595220,1866
+0,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,final_tx,815189,0
+0,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,total_deploy,22737000,2892224
+0,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,wall,9233360,0
+0,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,client_setup,311639,0
+0,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,write_chunks,6595039,501
+0,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,final_tx,810781,0
+0,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,total_deploy,8830532,1382016
+0,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,wall,8685727,0
+0,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,client_setup,210975,0
+0,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,write_chunks,6790622,501
+0,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,final_tx,209467,0
+0,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,total_deploy,8325274,1382016
+0,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,wall,4477133,0
+0,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,client_setup,210737,0
+0,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,write_chunks,2498548,108
+0,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,final_tx,205793,0
+0,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,total_deploy,4028988,108600
+0,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token,108600,success,wall,4857437,0
+0,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token,108600,success,client_setup,311693,0
+0,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token,108600,success,write_chunks,2260040,108
+0,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token,108600,success,final_tx,808793,0
+0,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token,108600,success,total_deploy,4494333,108600
+0,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,wall,22503798,0
+0,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,client_setup,322028,0
+0,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,write_chunks,19792901,1866
+0,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,final_tx,821379,0
+0,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,total_deploy,22060552,2892224
+0,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,wall,23207301,0
+0,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,client_setup,220585,0
+0,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,write_chunks,20629307,1866
+0,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,final_tx,820967,0
+0,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,total_deploy,22795535,2892224
+0,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,wall,8793190,0
+0,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,client_setup,322487,0
+0,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,write_chunks,6089750,501
+0,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,final_tx,816631,0
+0,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,total_deploy,8351417,1382016
+0,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,wall,9560180,0
+0,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,client_setup,221182,0
+0,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,write_chunks,6990625,501
+0,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,final_tx,815599,0
+0,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,total_deploy,9149946,1382016
+0,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,wall,6106345,0
+0,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,client_setup,220949,0
+0,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,write_chunks,3541308,108
+0,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,final_tx,812083,0
+0,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,total_deploy,5696152,108600
+0,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token,108600,success,wall,5287538,0
+0,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token,108600,success,client_setup,322157,0
+0,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token,108600,success,write_chunks,2589745,108
+0,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token,108600,success,final_tx,814248,0
+0,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token,108600,success,total_deploy,4847920,108600
+1,d25_l1,delay 25ms loss random 1%,baseline,jupiter-v6,2892224,success,wall,22957439,0
+1,d25_l1,delay 25ms loss random 1%,baseline,jupiter-v6,2892224,success,client_setup,607550,0
+1,d25_l1,delay 25ms loss random 1%,baseline,jupiter-v6,2892224,success,write_chunks,19993075,1866
+1,d25_l1,delay 25ms loss random 1%,baseline,jupiter-v6,2892224,success,final_tx,821271,0
+1,d25_l1,delay 25ms loss random 1%,baseline,jupiter-v6,2892224,success,total_deploy,22545109,2892224
+1,d25_l1,delay 25ms loss random 1%,tpu_next,jupiter-v6,2892224,success,wall,22742884,0
+1,d25_l1,delay 25ms loss random 1%,tpu_next,jupiter-v6,2892224,success,client_setup,220518,0
+1,d25_l1,delay 25ms loss random 1%,tpu_next,jupiter-v6,2892224,success,write_chunks,20167135,1866
+1,d25_l1,delay 25ms loss random 1%,tpu_next,jupiter-v6,2892224,success,final_tx,819714,0
+1,d25_l1,delay 25ms loss random 1%,tpu_next,jupiter-v6,2892224,success,total_deploy,22332212,2892224
+1,d25_l1,delay 25ms loss random 1%,tpu_next,token-2022,1382016,success,wall,9224497,0
+1,d25_l1,delay 25ms loss random 1%,tpu_next,token-2022,1382016,success,client_setup,220694,0
+1,d25_l1,delay 25ms loss random 1%,tpu_next,token-2022,1382016,success,write_chunks,6648142,501
+1,d25_l1,delay 25ms loss random 1%,tpu_next,token-2022,1382016,success,final_tx,823445,0
+1,d25_l1,delay 25ms loss random 1%,tpu_next,token-2022,1382016,success,total_deploy,8814437,1382016
+1,d25_l1,delay 25ms loss random 1%,baseline,token-2022,1382016,success,wall,8407251,0
+1,d25_l1,delay 25ms loss random 1%,baseline,token-2022,1382016,success,client_setup,321687,0
+1,d25_l1,delay 25ms loss random 1%,baseline,token-2022,1382016,success,write_chunks,6100163,501
+1,d25_l1,delay 25ms loss random 1%,baseline,token-2022,1382016,success,final_tx,816314,0
+1,d25_l1,delay 25ms loss random 1%,baseline,token-2022,1382016,success,total_deploy,7756360,1382016
+1,d25_l1,delay 25ms loss random 1%,baseline,token,108600,success,wall,5316631,0
+1,d25_l1,delay 25ms loss random 1%,baseline,token,108600,success,client_setup,1327572,0
+1,d25_l1,delay 25ms loss random 1%,baseline,token,108600,success,write_chunks,2248019,108
+1,d25_l1,delay 25ms loss random 1%,baseline,token,108600,success,final_tx,209771,0
+1,d25_l1,delay 25ms loss random 1%,baseline,token,108600,success,total_deploy,4906920,108600
+1,d25_l1,delay 25ms loss random 1%,tpu_next,token,108600,success,wall,6177959,0
+1,d25_l1,delay 25ms loss random 1%,tpu_next,token,108600,success,client_setup,221052,0
+1,d25_l1,delay 25ms loss random 1%,tpu_next,token,108600,success,write_chunks,3579753,108
+1,d25_l1,delay 25ms loss random 1%,tpu_next,token,108600,success,final_tx,813520,0
+1,d25_l1,delay 25ms loss random 1%,tpu_next,token,108600,success,total_deploy,5737541,108600
+1,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,jupiter-v6,2892224,success,wall,22959802,0
+1,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,jupiter-v6,2892224,success,client_setup,321827,0
+1,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,jupiter-v6,2892224,success,write_chunks,20281725,1866
+1,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,jupiter-v6,2892224,success,final_tx,820061,0
+1,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,jupiter-v6,2892224,success,total_deploy,22547761,2892224
+1,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,jupiter-v6,2892224,success,wall,23229266,0
+1,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,jupiter-v6,2892224,success,client_setup,220787,0
+1,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,jupiter-v6,2892224,success,write_chunks,20198502,1866
+1,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,jupiter-v6,2892224,success,final_tx,820531,0
+1,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,jupiter-v6,2892224,success,total_deploy,21760616,2892224
+1,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token-2022,1382016,success,wall,10663139,0
+1,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token-2022,1382016,success,client_setup,1341762,0
+1,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token-2022,1382016,success,write_chunks,6971195,501
+1,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token-2022,1382016,success,final_tx,816837,0
+1,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token-2022,1382016,success,total_deploy,10252404,1382016
+1,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token-2022,1382016,success,wall,8722308,0
+1,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token-2022,1382016,success,client_setup,321972,0
+1,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token-2022,1382016,success,write_chunks,6050921,501
+1,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token-2022,1382016,success,final_tx,816517,0
+1,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token-2022,1382016,success,total_deploy,8311457,1382016
+1,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token,108600,success,wall,5881197,0
+1,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token,108600,success,client_setup,220728,0
+1,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token,108600,success,write_chunks,3317096,108
+1,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token,108600,success,final_tx,812878,0
+1,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token,108600,success,total_deploy,5472131,108600
+1,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token,108600,success,wall,5294887,0
+1,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token,108600,success,client_setup,322044,0
+1,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token,108600,success,write_chunks,2599267,108
+1,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token,108600,success,final_tx,812664,0
+1,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token,108600,success,total_deploy,4855457,108600
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,wall,22393308,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,client_setup,321923,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,write_chunks,19714295,1866
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,final_tx,821717,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,total_deploy,21981255,2892224
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,wall,23173268,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,client_setup,220695,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,write_chunks,20595569,1866
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,final_tx,821169,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,total_deploy,22760748,2892224
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,wall,8643443,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,client_setup,220810,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,write_chunks,6646902,501
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,final_tx,212218,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,total_deploy,8201853,1382016
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,wall,8732295,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,client_setup,321866,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,write_chunks,6061053,501
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,final_tx,816518,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,total_deploy,8322502,1382016
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,wall,8971592,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,client_setup,2806818,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,write_chunks,3789059,108
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,final_tx,813844,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,total_deploy,8531367,108600
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,wall,5315934,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,client_setup,321948,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,write_chunks,2619089,108
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,final_tx,812893,0
+1,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,total_deploy,4874315,108600
+1,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,wall,23054736,0
+1,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,client_setup,210741,0
+1,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,write_chunks,20548751,1866
+1,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,final_tx,816074,0
+1,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,total_deploy,22689894,2892224
+1,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,wall,22469103,0
+1,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,client_setup,360905,0
+1,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,write_chunks,19773203,1866
+1,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,final_tx,816151,0
+1,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,total_deploy,22064567,2892224
+1,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,wall,8578316,0
+1,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,client_setup,311273,0
+1,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,write_chunks,5978876,501
+1,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,final_tx,810512,0
+1,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,total_deploy,8215026,1382016
+1,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,wall,8690393,0
+1,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,client_setup,210762,0
+1,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,write_chunks,6524187,501
+1,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,final_tx,208872,0
+1,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,total_deploy,8328471,1382016
+1,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,wall,4923696,0
+1,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,client_setup,210520,0
+1,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,write_chunks,2430654,108
+1,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,final_tx,808652,0
+1,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,total_deploy,4562483,108600
+1,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token,108600,success,wall,4470658,0
+1,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token,108600,success,client_setup,311389,0
+1,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token,108600,success,write_chunks,2481713,108
+1,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token,108600,success,final_tx,205721,0
+1,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token,108600,success,total_deploy,4110309,108600
+1,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,wall,23085700,0
+1,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,client_setup,220785,0
+1,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,write_chunks,20357089,1866
+1,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,final_tx,820341,0
+1,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,total_deploy,22522735,2892224
+1,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,wall,22842285,0
+1,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,client_setup,321844,0
+1,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,write_chunks,20164256,1866
+1,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,final_tx,820999,0
+1,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,total_deploy,22430796,2892224
+1,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,wall,9240422,0
+1,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,client_setup,220724,0
+1,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,write_chunks,6671138,501
+1,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,final_tx,816357,0
+1,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,total_deploy,8830616,1382016
+1,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,wall,9947860,0
+1,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,client_setup,1337720,0
+1,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,write_chunks,6260415,501
+1,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,final_tx,816274,0
+1,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,total_deploy,9536965,1382016
+1,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token,108600,success,wall,5396921,0
+1,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token,108600,success,client_setup,321918,0
+1,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token,108600,success,write_chunks,2660352,108
+1,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token,108600,success,final_tx,814184,0
+1,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token,108600,success,total_deploy,4917386,108600
+1,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,wall,5873221,0
+1,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,client_setup,220999,0
+1,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,write_chunks,3305739,108
+1,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,final_tx,813923,0
+1,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,total_deploy,5463069,108600
+2,d25_l1,delay 25ms loss random 1%,baseline,jupiter-v6,2892224,success,wall,22780135,0
+2,d25_l1,delay 25ms loss random 1%,baseline,jupiter-v6,2892224,success,client_setup,322126,0
+2,d25_l1,delay 25ms loss random 1%,baseline,jupiter-v6,2892224,success,write_chunks,20102163,1866
+2,d25_l1,delay 25ms loss random 1%,baseline,jupiter-v6,2892224,success,final_tx,819940,0
+2,d25_l1,delay 25ms loss random 1%,baseline,jupiter-v6,2892224,success,total_deploy,22367844,2892224
+2,d25_l1,delay 25ms loss random 1%,tpu_next,jupiter-v6,2892224,success,wall,23466205,0
+2,d25_l1,delay 25ms loss random 1%,tpu_next,jupiter-v6,2892224,success,client_setup,480466,0
+2,d25_l1,delay 25ms loss random 1%,tpu_next,jupiter-v6,2892224,success,write_chunks,20429292,1866
+2,d25_l1,delay 25ms loss random 1%,tpu_next,jupiter-v6,2892224,success,final_tx,820857,0
+2,d25_l1,delay 25ms loss random 1%,tpu_next,jupiter-v6,2892224,success,total_deploy,22854543,2892224
+2,d25_l1,delay 25ms loss random 1%,baseline,token-2022,1382016,success,wall,10780038,0
+2,d25_l1,delay 25ms loss random 1%,baseline,token-2022,1382016,success,client_setup,321644,0
+2,d25_l1,delay 25ms loss random 1%,baseline,token-2022,1382016,success,write_chunks,6438808,501
+2,d25_l1,delay 25ms loss random 1%,baseline,token-2022,1382016,success,final_tx,815711,0
+2,d25_l1,delay 25ms loss random 1%,baseline,token-2022,1382016,success,total_deploy,9337181,1382016
+2,d25_l1,delay 25ms loss random 1%,tpu_next,token-2022,1382016,success,wall,9201534,0
+2,d25_l1,delay 25ms loss random 1%,tpu_next,token-2022,1382016,success,client_setup,500603,0
+2,d25_l1,delay 25ms loss random 1%,tpu_next,token-2022,1382016,success,write_chunks,6651485,501
+2,d25_l1,delay 25ms loss random 1%,tpu_next,token-2022,1382016,success,final_tx,816245,0
+2,d25_l1,delay 25ms loss random 1%,tpu_next,token-2022,1382016,success,total_deploy,8761077,1382016
+2,d25_l1,delay 25ms loss random 1%,tpu_next,token,108600,success,wall,5242833,0
+2,d25_l1,delay 25ms loss random 1%,tpu_next,token,108600,success,client_setup,221123,0
+2,d25_l1,delay 25ms loss random 1%,tpu_next,token,108600,success,write_chunks,2647482,108
+2,d25_l1,delay 25ms loss random 1%,tpu_next,token,108600,success,final_tx,813067,0
+2,d25_l1,delay 25ms loss random 1%,tpu_next,token,108600,success,total_deploy,4803611,108600
+2,d25_l1,delay 25ms loss random 1%,baseline,token,108600,success,wall,5236767,0
+2,d25_l1,delay 25ms loss random 1%,baseline,token,108600,success,client_setup,321976,0
+2,d25_l1,delay 25ms loss random 1%,baseline,token,108600,success,write_chunks,2568696,108
+2,d25_l1,delay 25ms loss random 1%,baseline,token,108600,success,final_tx,813662,0
+2,d25_l1,delay 25ms loss random 1%,baseline,token,108600,success,total_deploy,4825975,108600
+2,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,jupiter-v6,2892224,success,wall,22501566,0
+2,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,jupiter-v6,2892224,success,client_setup,321913,0
+2,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,jupiter-v6,2892224,success,write_chunks,19792976,1866
+2,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,jupiter-v6,2892224,success,final_tx,819370,0
+2,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,jupiter-v6,2892224,success,total_deploy,22057736,2892224
+2,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,jupiter-v6,2892224,failure,wall,30110138,0
+2,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token-2022,1382016,success,wall,9563266,0
+2,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token-2022,1382016,success,client_setup,220609,0
+2,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token-2022,1382016,success,write_chunks,6994471,501
+2,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token-2022,1382016,success,final_tx,815653,0
+2,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token-2022,1382016,success,total_deploy,9153168,1382016
+2,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token-2022,1382016,success,wall,8729904,0
+2,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token-2022,1382016,success,client_setup,321882,0
+2,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token-2022,1382016,success,write_chunks,6060728,501
+2,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token-2022,1382016,success,final_tx,816119,0
+2,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token-2022,1382016,success,total_deploy,8319858,1382016
+2,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token,108600,success,wall,5882272,0
+2,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token,108600,success,client_setup,220658,0
+2,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token,108600,success,write_chunks,3316524,108
+2,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token,108600,success,final_tx,813872,0
+2,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token,108600,success,total_deploy,5473104,108600
+2,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token,108600,success,wall,4914907,0
+2,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token,108600,success,client_setup,322133,0
+2,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token,108600,success,write_chunks,2248698,108
+2,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token,108600,success,final_tx,813419,0
+2,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token,108600,success,total_deploy,4505382,108600
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,wall,22434164,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,client_setup,322148,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,write_chunks,19722548,1866
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,final_tx,822260,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,total_deploy,21990304,2892224
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,wall,23572160,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,client_setup,220698,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,write_chunks,20995786,1866
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,final_tx,820712,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,total_deploy,23161109,2892224
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,wall,14015732,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,client_setup,220772,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,write_chunks,7121492,501
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,final_tx,815983,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,total_deploy,9281353,1382016
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,wall,9267416,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,client_setup,321938,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,write_chunks,7171297,501
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,final_tx,212191,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,total_deploy,8827558,1382016
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,wall,5634796,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,client_setup,321960,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,write_chunks,2938807,108
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,final_tx,813286,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,total_deploy,5194465,108600
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,wall,8587053,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,client_setup,263556,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,write_chunks,2618079,108
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,final_tx,813612,0
+2,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,total_deploy,4816080,108600
+2,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,wall,22300262,0
+2,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,client_setup,311493,0
+2,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,write_chunks,19650922,1866
+2,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,final_tx,817705,0
+2,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,total_deploy,21894433,2892224
+2,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,wall,23722286,0
+2,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,client_setup,210964,0
+2,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,write_chunks,21175227,1866
+2,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,final_tx,814672,0
+2,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,total_deploy,23316946,2892224
+2,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,wall,8703890,0
+2,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,client_setup,311496,0
+2,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,write_chunks,5829473,501
+2,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,final_tx,810025,0
+2,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,total_deploy,8341448,1382016
+2,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,wall,8643331,0
+2,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,client_setup,210656,0
+2,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,write_chunks,6708364,501
+2,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,final_tx,208142,0
+2,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,total_deploy,8240422,1382016
+2,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token,108600,success,wall,5027293,0
+2,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token,108600,success,client_setup,311577,0
+2,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token,108600,success,write_chunks,2432598,108
+2,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token,108600,success,final_tx,808533,0
+2,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token,108600,success,total_deploy,4665845,108600
+2,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,wall,4833700,0
+2,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,client_setup,210640,0
+2,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,write_chunks,2299722,108
+2,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,final_tx,808318,0
+2,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,total_deploy,4431877,108600
+2,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,wall,22849811,0
+2,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,client_setup,322051,0
+2,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,write_chunks,20141834,1866
+2,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,final_tx,819650,0
+2,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,total_deploy,22406369,2892224
+2,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,wall,23525900,0
+2,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,client_setup,220680,0
+2,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,write_chunks,20916674,1866
+2,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,final_tx,820791,0
+2,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,total_deploy,23082696,2892224
+2,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,wall,9644642,0
+2,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,client_setup,220694,0
+2,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,write_chunks,6954956,501
+2,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,final_tx,816539,0
+2,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,total_deploy,9113828,1382016
+2,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,wall,8236918,0
+2,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,client_setup,322072,0
+2,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,write_chunks,5900829,501
+2,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,final_tx,212746,0
+2,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,total_deploy,7825240,1382016
+2,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token,108600,success,wall,5275837,0
+2,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token,108600,success,client_setup,322453,0
+2,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token,108600,success,write_chunks,2579105,108
+2,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token,108600,success,final_tx,812425,0
+2,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token,108600,success,total_deploy,4835839,108600
+2,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,wall,5771094,0
+2,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,client_setup,220765,0
+2,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,write_chunks,3449234,108
+2,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,final_tx,215616,0
+2,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,total_deploy,5007731,108600
+3,d25_l1,delay 25ms loss random 1%,baseline,jupiter-v6,2892224,success,wall,22503867,0
+3,d25_l1,delay 25ms loss random 1%,baseline,jupiter-v6,2892224,success,client_setup,322200,0
+3,d25_l1,delay 25ms loss random 1%,baseline,jupiter-v6,2892224,success,write_chunks,19553645,1866
+3,d25_l1,delay 25ms loss random 1%,baseline,jupiter-v6,2892224,success,final_tx,821126,0
+3,d25_l1,delay 25ms loss random 1%,baseline,jupiter-v6,2892224,success,total_deploy,22091522,2892224
+3,d25_l1,delay 25ms loss random 1%,tpu_next,jupiter-v6,2892224,success,wall,23591597,0
+3,d25_l1,delay 25ms loss random 1%,tpu_next,jupiter-v6,2892224,success,client_setup,220551,0
+3,d25_l1,delay 25ms loss random 1%,tpu_next,jupiter-v6,2892224,success,write_chunks,21013539,1866
+3,d25_l1,delay 25ms loss random 1%,tpu_next,jupiter-v6,2892224,success,final_tx,821309,0
+3,d25_l1,delay 25ms loss random 1%,tpu_next,jupiter-v6,2892224,success,total_deploy,23179687,2892224
+3,d25_l1,delay 25ms loss random 1%,tpu_next,token-2022,1382016,success,wall,8686111,0
+3,d25_l1,delay 25ms loss random 1%,tpu_next,token-2022,1382016,success,client_setup,221369,0
+3,d25_l1,delay 25ms loss random 1%,tpu_next,token-2022,1382016,success,write_chunks,6720341,501
+3,d25_l1,delay 25ms loss random 1%,tpu_next,token-2022,1382016,success,final_tx,211826,0
+3,d25_l1,delay 25ms loss random 1%,tpu_next,token-2022,1382016,success,total_deploy,8276555,1382016
+3,d25_l1,delay 25ms loss random 1%,baseline,token-2022,1382016,success,wall,8811677,0
+3,d25_l1,delay 25ms loss random 1%,baseline,token-2022,1382016,success,client_setup,322286,0
+3,d25_l1,delay 25ms loss random 1%,baseline,token-2022,1382016,success,write_chunks,6140580,501
+3,d25_l1,delay 25ms loss random 1%,baseline,token-2022,1382016,success,final_tx,815740,0
+3,d25_l1,delay 25ms loss random 1%,baseline,token-2022,1382016,success,total_deploy,8401132,1382016
+3,d25_l1,delay 25ms loss random 1%,tpu_next,token,108600,success,wall,6427884,0
+3,d25_l1,delay 25ms loss random 1%,tpu_next,token,108600,success,client_setup,481672,0
+3,d25_l1,delay 25ms loss random 1%,tpu_next,token,108600,success,write_chunks,3316501,108
+3,d25_l1,delay 25ms loss random 1%,tpu_next,token,108600,success,final_tx,1098421,0
+3,d25_l1,delay 25ms loss random 1%,tpu_next,token,108600,success,total_deploy,6019130,108600
+3,d25_l1,delay 25ms loss random 1%,baseline,token,108600,success,wall,4926587,0
+3,d25_l1,delay 25ms loss random 1%,baseline,token,108600,success,client_setup,322053,0
+3,d25_l1,delay 25ms loss random 1%,baseline,token,108600,success,write_chunks,2600969,108
+3,d25_l1,delay 25ms loss random 1%,baseline,token,108600,success,final_tx,471848,0
+3,d25_l1,delay 25ms loss random 1%,baseline,token,108600,success,total_deploy,4516632,108600
+3,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,jupiter-v6,2892224,success,wall,22472079,0
+3,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,jupiter-v6,2892224,success,client_setup,322350,0
+3,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,jupiter-v6,2892224,success,write_chunks,19794165,1866
+3,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,jupiter-v6,2892224,success,final_tx,820014,0
+3,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,jupiter-v6,2892224,success,total_deploy,22060313,2892224
+3,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,jupiter-v6,2892224,success,wall,23611893,0
+3,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,jupiter-v6,2892224,success,client_setup,220689,0
+3,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,jupiter-v6,2892224,success,write_chunks,20981887,1866
+3,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,jupiter-v6,2892224,success,final_tx,841418,0
+3,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,jupiter-v6,2892224,success,total_deploy,23168224,2892224
+3,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token-2022,1382016,success,wall,9238457,0
+3,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token-2022,1382016,success,client_setup,220627,0
+3,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token-2022,1382016,success,write_chunks,6672624,501
+3,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token-2022,1382016,success,final_tx,816143,0
+3,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token-2022,1382016,success,total_deploy,8830079,1382016
+3,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token-2022,1382016,success,wall,8771774,0
+3,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token-2022,1382016,success,client_setup,321991,0
+3,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token-2022,1382016,success,write_chunks,6071376,501
+3,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token-2022,1382016,success,final_tx,816039,0
+3,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token-2022,1382016,success,total_deploy,8330492,1382016
+3,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token,108600,success,wall,9195367,0
+3,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token,108600,success,client_setup,220853,0
+3,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token,108600,success,write_chunks,3331109,108
+3,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token,108600,success,final_tx,814095,0
+3,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token,108600,success,total_deploy,5487563,108600
+3,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token,108600,success,wall,5308194,0
+3,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token,108600,success,client_setup,322251,0
+3,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token,108600,success,write_chunks,2610910,108
+3,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token,108600,success,final_tx,813653,0
+3,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token,108600,success,total_deploy,4868131,108600
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,wall,22725466,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,client_setup,321788,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,write_chunks,19932623,1866
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,final_tx,820471,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,total_deploy,22198673,2892224
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,wall,23533546,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,client_setup,220747,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,write_chunks,20956260,1866
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,final_tx,817743,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,total_deploy,23119657,2892224
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,wall,8644828,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,client_setup,220650,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,write_chunks,6682372,501
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,final_tx,211865,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,total_deploy,8236489,1382016
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,wall,8730812,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,client_setup,322021,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,write_chunks,6060113,501
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,final_tx,816208,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,total_deploy,8320782,1382016
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,wall,5207215,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,client_setup,322195,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,write_chunks,2539197,108
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,final_tx,813951,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,total_deploy,4797386,108600
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,wall,5172101,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,client_setup,221057,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,write_chunks,2576645,108
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,final_tx,813086,0
+3,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,total_deploy,4732809,108600
+3,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,wall,23711228,0
+3,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,client_setup,210847,0
+3,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,write_chunks,21161949,1866
+3,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,final_tx,815156,0
+3,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,total_deploy,23304208,2892224
+3,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,wall,21993331,0
+3,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,client_setup,311308,0
+3,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,write_chunks,19985993,1866
+3,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,final_tx,214053,0
+3,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,total_deploy,21626481,2892224
+3,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,wall,9258504,0
+3,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,client_setup,211235,0
+3,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,write_chunks,6558002,501
+3,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,final_tx,810326,0
+3,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,total_deploy,8856387,1382016
+3,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,wall,8647907,0
+3,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,client_setup,311505,0
+3,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,write_chunks,6010385,501
+3,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,final_tx,809417,0
+3,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,total_deploy,8245045,1382016
+3,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token,108600,success,wall,4935312,0
+3,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token,108600,success,client_setup,311365,0
+3,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token,108600,success,write_chunks,2300293,108
+3,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token,108600,success,final_tx,808203,0
+3,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token,108600,success,total_deploy,4534298,108600
+3,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,wall,5072424,0
+3,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,client_setup,210780,0
+3,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,write_chunks,2538201,108
+3,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,final_tx,808190,0
+3,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,total_deploy,4671958,108600
+3,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,wall,23544170,0
+3,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,client_setup,221100,0
+3,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,write_chunks,20937277,1866
+3,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,final_tx,820221,0
+3,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,total_deploy,23101543,2892224
+3,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,wall,22501633,0
+3,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,client_setup,322686,0
+3,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,write_chunks,19791902,1866
+3,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,final_tx,820785,0
+3,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,total_deploy,22058662,2892224
+3,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,wall,9562217,0
+3,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,client_setup,495378,0
+3,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,write_chunks,6720110,501
+3,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,final_tx,815653,0
+3,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,total_deploy,9152208,1382016
+3,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,wall,8761908,0
+3,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,client_setup,321968,0
+3,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,write_chunks,6060866,501
+3,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,final_tx,816047,0
+3,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,total_deploy,8321175,1382016
+3,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token,108600,success,wall,5232467,0
+3,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token,108600,success,client_setup,322184,0
+3,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token,108600,success,write_chunks,2248722,108
+3,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token,108600,success,final_tx,813140,0
+3,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token,108600,success,total_deploy,4791407,108600
+3,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,wall,6163895,0
+3,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,client_setup,220796,0
+3,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,write_chunks,3324990,108
+3,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,final_tx,1087402,0
+3,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,total_deploy,5755431,108600
+4,d25_l1,delay 25ms loss random 1%,tpu_next,jupiter-v6,2892224,success,wall,22717053,0
+4,d25_l1,delay 25ms loss random 1%,tpu_next,jupiter-v6,2892224,success,client_setup,221026,0
+4,d25_l1,delay 25ms loss random 1%,tpu_next,jupiter-v6,2892224,success,write_chunks,20137863,1866
+4,d25_l1,delay 25ms loss random 1%,tpu_next,jupiter-v6,2892224,success,final_tx,820827,0
+4,d25_l1,delay 25ms loss random 1%,tpu_next,jupiter-v6,2892224,success,total_deploy,22305017,2892224
+4,d25_l1,delay 25ms loss random 1%,baseline,jupiter-v6,2892224,success,wall,22484127,0
+4,d25_l1,delay 25ms loss random 1%,baseline,jupiter-v6,2892224,success,client_setup,322001,0
+4,d25_l1,delay 25ms loss random 1%,baseline,jupiter-v6,2892224,success,write_chunks,19774679,1866
+4,d25_l1,delay 25ms loss random 1%,baseline,jupiter-v6,2892224,success,final_tx,821064,0
+4,d25_l1,delay 25ms loss random 1%,baseline,jupiter-v6,2892224,success,total_deploy,22041802,2892224
+4,d25_l1,delay 25ms loss random 1%,baseline,token-2022,1382016,success,wall,9708663,0
+4,d25_l1,delay 25ms loss random 1%,baseline,token-2022,1382016,success,client_setup,332732,0
+4,d25_l1,delay 25ms loss random 1%,baseline,token-2022,1382016,success,write_chunks,7130665,501
+4,d25_l1,delay 25ms loss random 1%,baseline,token-2022,1382016,success,final_tx,489193,0
+4,d25_l1,delay 25ms loss random 1%,baseline,token-2022,1382016,success,total_deploy,9082959,1382016
+4,d25_l1,delay 25ms loss random 1%,tpu_next,token-2022,1382016,success,wall,9552867,0
+4,d25_l1,delay 25ms loss random 1%,tpu_next,token-2022,1382016,success,client_setup,221668,0
+4,d25_l1,delay 25ms loss random 1%,tpu_next,token-2022,1382016,success,write_chunks,6710639,501
+4,d25_l1,delay 25ms loss random 1%,tpu_next,token-2022,1382016,success,final_tx,815780,0
+4,d25_l1,delay 25ms loss random 1%,tpu_next,token-2022,1382016,success,total_deploy,8871889,1382016
+4,d25_l1,delay 25ms loss random 1%,baseline,token,108600,success,wall,5469040,0
+4,d25_l1,delay 25ms loss random 1%,baseline,token,108600,success,client_setup,321805,0
+4,d25_l1,delay 25ms loss random 1%,baseline,token,108600,success,write_chunks,2680899,108
+4,d25_l1,delay 25ms loss random 1%,baseline,token,108600,success,final_tx,813522,0
+4,d25_l1,delay 25ms loss random 1%,baseline,token,108600,success,total_deploy,4937920,108600
+4,d25_l1,delay 25ms loss random 1%,tpu_next,token,108600,success,wall,6473715,0
+4,d25_l1,delay 25ms loss random 1%,tpu_next,token,108600,success,client_setup,220994,0
+4,d25_l1,delay 25ms loss random 1%,tpu_next,token,108600,success,write_chunks,3324718,108
+4,d25_l1,delay 25ms loss random 1%,tpu_next,token,108600,success,final_tx,1090004,0
+4,d25_l1,delay 25ms loss random 1%,tpu_next,token,108600,success,total_deploy,6029921,108600
+4,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,jupiter-v6,2892224,success,wall,27348259,0
+4,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,jupiter-v6,2892224,success,client_setup,332701,0
+4,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,jupiter-v6,2892224,success,write_chunks,23938987,1866
+4,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,jupiter-v6,2892224,success,final_tx,843907,0
+4,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,jupiter-v6,2892224,success,total_deploy,26860481,2892224
+4,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,jupiter-v6,2892224,success,wall,22562508,0
+4,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,jupiter-v6,2892224,success,client_setup,220506,0
+4,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,jupiter-v6,2892224,success,write_chunks,19986613,1866
+4,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,jupiter-v6,2892224,success,final_tx,820855,0
+4,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,jupiter-v6,2892224,success,total_deploy,22150972,2892224
+4,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token-2022,1382016,success,wall,8759854,0
+4,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token-2022,1382016,success,client_setup,321829,0
+4,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token-2022,1382016,success,write_chunks,6059787,501
+4,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token-2022,1382016,success,final_tx,815460,0
+4,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token-2022,1382016,success,total_deploy,8319094,1382016
+4,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token-2022,1382016,success,wall,9207940,0
+4,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token-2022,1382016,success,client_setup,220567,0
+4,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token-2022,1382016,success,write_chunks,6609349,501
+4,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token-2022,1382016,success,final_tx,814908,0
+4,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token-2022,1382016,success,total_deploy,8766537,1382016
+4,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token,108600,success,wall,5890419,0
+4,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token,108600,success,client_setup,220364,0
+4,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token,108600,success,write_chunks,3326181,108
+4,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token,108600,success,final_tx,813479,0
+4,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token,108600,success,total_deploy,5481783,108600
+4,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token,108600,success,wall,5305145,0
+4,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token,108600,success,client_setup,322001,0
+4,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token,108600,success,write_chunks,2608880,108
+4,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token,108600,success,final_tx,812493,0
+4,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token,108600,success,total_deploy,4865474,108600
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,wall,23609450,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,client_setup,220495,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,write_chunks,21033797,1866
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,final_tx,819514,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,total_deploy,23197908,2892224
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,failure,wall,30195312,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,wall,9070451,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,client_setup,579229,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,write_chunks,6142568,501
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,final_tx,815059,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,total_deploy,8659207,1382016
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,wall,9162206,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,client_setup,220529,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,write_chunks,6617070,501
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,final_tx,762239,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,total_deploy,8721521,1382016
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,wall,4948416,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,client_setup,321858,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,write_chunks,2629044,108
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,final_tx,814066,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,success,total_deploy,4282676,108600
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,wall,5903465,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,client_setup,220683,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,write_chunks,3309398,108
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,final_tx,813012,0
+4,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,total_deploy,5463531,108600
+4,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,wall,22274197,0
+4,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,client_setup,311241,0
+4,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,write_chunks,19670460,1866
+4,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,final_tx,814657,0
+4,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,total_deploy,21910635,2892224
+4,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,wall,23263971,0
+4,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,client_setup,210703,0
+4,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,write_chunks,20547167,1866
+4,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,final_tx,814647,0
+4,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,total_deploy,22686503,2892224
+4,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,wall,9119496,0
+4,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,client_setup,311307,0
+4,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,write_chunks,6523226,501
+4,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,final_tx,811359,0
+4,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,total_deploy,8757713,1382016
+4,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,wall,10072067,0
+4,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,client_setup,211109,0
+4,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,write_chunks,7573016,501
+4,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,final_tx,810225,0
+4,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,total_deploy,9708911,1382016
+4,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token,108600,success,wall,4932735,0
+4,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token,108600,success,client_setup,311233,0
+4,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token,108600,success,write_chunks,2300216,108
+4,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token,108600,success,final_tx,807992,0
+4,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,token,108600,success,total_deploy,4531725,108600
+4,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,wall,4832436,0
+4,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,client_setup,210579,0
+4,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,write_chunks,2299010,108
+4,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,final_tx,807494,0
+4,bw10,rate 10mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,total_deploy,4430739,108600
+4,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,wall,22480425,0
+4,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,client_setup,321608,0
+4,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,write_chunks,19773524,1866
+4,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,final_tx,820131,0
+4,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,total_deploy,22037890,2892224
+4,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,wall,23657727,0
+4,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,client_setup,220713,0
+4,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,write_chunks,21041942,1866
+4,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,final_tx,817608,0
+4,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,jupiter-v6,2892224,success,total_deploy,23204866,2892224
+4,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,wall,9505324,0
+4,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,client_setup,220835,0
+4,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,write_chunks,6651531,501
+4,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,final_tx,1100542,0
+4,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token-2022,1382016,success,total_deploy,9095106,1382016
+4,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,wall,8773292,0
+4,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,client_setup,321913,0
+4,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,write_chunks,6070984,501
+4,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,final_tx,815481,0
+4,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token-2022,1382016,success,total_deploy,8330961,1382016
+4,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,wall,5904305,0
+4,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,client_setup,220580,0
+4,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,write_chunks,3309545,108
+4,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,final_tx,813963,0
+4,bw5,rate 5mbit delay 25ms loss random 0.5%,tpu_next,token,108600,success,total_deploy,5465157,108600
+4,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token,108600,success,wall,5288697,0
+4,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token,108600,success,client_setup,322050,0
+4,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token,108600,success,write_chunks,2590431,108
+4,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token,108600,success,final_tx,814490,0
+4,bw5,rate 5mbit delay 25ms loss random 0.5%,baseline,token,108600,success,total_deploy,4848583,108600
+5,d25_l1,delay 25ms loss random 1%,baseline,jupiter-v6,2892224,success,wall,23616373,0
+5,d25_l1,delay 25ms loss random 1%,baseline,jupiter-v6,2892224,success,client_setup,417618,0
+5,d25_l1,delay 25ms loss random 1%,baseline,jupiter-v6,2892224,success,write_chunks,20183574,1866
+5,d25_l1,delay 25ms loss random 1%,baseline,jupiter-v6,2892224,success,final_tx,1094932,0
+5,d25_l1,delay 25ms loss random 1%,baseline,jupiter-v6,2892224,success,total_deploy,22819717,2892224
+5,d25_l1,delay 25ms loss random 1%,tpu_next,jupiter-v6,2892224,success,wall,23573107,0
+5,d25_l1,delay 25ms loss random 1%,tpu_next,jupiter-v6,2892224,success,client_setup,220985,0
+5,d25_l1,delay 25ms loss random 1%,tpu_next,jupiter-v6,2892224,success,write_chunks,20964418,1866
+5,d25_l1,delay 25ms loss random 1%,tpu_next,jupiter-v6,2892224,success,final_tx,820316,0
+5,d25_l1,delay 25ms loss random 1%,tpu_next,jupiter-v6,2892224,success,total_deploy,23131074,2892224
+5,d25_l1,delay 25ms loss random 1%,baseline,token-2022,1382016,success,wall,8721686,0
+5,d25_l1,delay 25ms loss random 1%,baseline,token-2022,1382016,success,client_setup,321880,0
+5,d25_l1,delay 25ms loss random 1%,baseline,token-2022,1382016,success,write_chunks,6050646,501
+5,d25_l1,delay 25ms loss random 1%,baseline,token-2022,1382016,success,final_tx,816199,0
+5,d25_l1,delay 25ms loss random 1%,baseline,token-2022,1382016,success,total_deploy,8311098,1382016
+5,d25_l1,delay 25ms loss random 1%,tpu_next,token-2022,1382016,success,wall,9881153,0
+5,d25_l1,delay 25ms loss random 1%,tpu_next,token-2022,1382016,success,client_setup,220288,0
+5,d25_l1,delay 25ms loss random 1%,tpu_next,token-2022,1382016,success,write_chunks,7042915,501
+5,d25_l1,delay 25ms loss random 1%,tpu_next,token-2022,1382016,success,final_tx,813828,0
+5,d25_l1,delay 25ms loss random 1%,tpu_next,token-2022,1382016,success,total_deploy,9471168,1382016
+5,d25_l1,delay 25ms loss random 1%,tpu_next,token,108600,success,wall,6841324,0
+5,d25_l1,delay 25ms loss random 1%,tpu_next,token,108600,success,client_setup,220748,0
+5,d25_l1,delay 25ms loss random 1%,tpu_next,token,108600,success,write_chunks,3427581,108
+5,d25_l1,delay 25ms loss random 1%,tpu_next,token,108600,success,final_tx,1092178,0
+5,d25_l1,delay 25ms loss random 1%,tpu_next,token,108600,success,total_deploy,6402139,108600
+5,d25_l1,delay 25ms loss random 1%,baseline,token,108600,success,wall,5233732,0
+5,d25_l1,delay 25ms loss random 1%,baseline,token,108600,success,client_setup,322037,0
+5,d25_l1,delay 25ms loss random 1%,baseline,token,108600,success,write_chunks,2569539,108
+5,d25_l1,delay 25ms loss random 1%,baseline,token,108600,success,final_tx,812335,0
+5,d25_l1,delay 25ms loss random 1%,baseline,token,108600,success,total_deploy,4824243,108600
+5,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,jupiter-v6,2892224,success,wall,22980414,0
+5,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,jupiter-v6,2892224,success,client_setup,220737,0
+5,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,jupiter-v6,2892224,success,write_chunks,20404697,1866
+5,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,jupiter-v6,2892224,success,final_tx,820517,0
+5,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,jupiter-v6,2892224,success,total_deploy,22568439,2892224
+5,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,jupiter-v6,2892224,success,wall,28848863,0
+5,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,jupiter-v6,2892224,success,client_setup,322117,0
+5,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,jupiter-v6,2892224,success,write_chunks,19791597,1866
+5,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,jupiter-v6,2892224,success,final_tx,7169637,0
+5,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,jupiter-v6,2892224,success,total_deploy,28406207,2892224
+5,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token-2022,1382016,success,wall,9286508,0
+5,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token-2022,1382016,success,client_setup,220782,0
+5,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token-2022,1382016,success,write_chunks,6685227,501
+5,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token-2022,1382016,success,final_tx,816800,0
+5,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token-2022,1382016,success,total_deploy,8845540,1382016
+5,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token-2022,1382016,success,wall,8915181,0
+5,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token-2022,1382016,success,client_setup,321800,0
+5,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token-2022,1382016,success,write_chunks,5940063,501
+5,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token-2022,1382016,success,final_tx,816144,0
+5,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token-2022,1382016,success,total_deploy,8469290,1382016
+5,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token,108600,success,wall,5870560,0
+5,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token,108600,success,client_setup,220708,0
+5,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token,108600,success,write_chunks,3305923,108
+5,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token,108600,success,final_tx,813024,0
+5,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,tpu_next,token,108600,success,total_deploy,5461670,108600
+5,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token,108600,success,wall,5227813,0
+5,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token,108600,success,client_setup,322378,0
+5,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token,108600,success,write_chunks,2559636,108
+5,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token,108600,success,final_tx,814381,0
+5,burst_l1,delay 25ms loss gemodel 0.1% 10% 70% 0.05%,baseline,token,108600,success,total_deploy,4818324,108600
+5,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,wall,25066634,0
+5,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,client_setup,220845,0
+5,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,write_chunks,22457651,1866
+5,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,final_tx,820960,0
+5,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,jupiter-v6,2892224,success,total_deploy,24624521,2892224
+5,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,wall,22395472,0
+5,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,client_setup,321811,0
+5,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,write_chunks,20289763,1866
+5,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,final_tx,217265,0
+5,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,jupiter-v6,2892224,success,total_deploy,21951458,2892224
+5,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,wall,26152425,0
+5,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,client_setup,321873,0
+5,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,write_chunks,23451540,501
+5,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,final_tx,815685,0
+5,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token-2022,1382016,success,total_deploy,25711434,1382016
+5,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,wall,9219309,0
+5,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,client_setup,220592,0
+5,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,write_chunks,6652023,501
+5,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,final_tx,815908,0
+5,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token-2022,1382016,success,total_deploy,8810161,1382016
+5,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,wall,5881446,0
+5,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,client_setup,220777,0
+5,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,write_chunks,3317625,108
+5,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,final_tx,812955,0
+5,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,tpu_next,token,108600,success,total_deploy,5472572,108600
+5,burst_l3,delay 25ms loss gemodel 0.2% 10% 70% 0.1%,baseline,token,108600,failure,wall,25317452,0
+5,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,wall,22294933,0
+5,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,client_setup,311458,0
+5,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,write_chunks,19649274,1866
+5,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,final_tx,816283,0
+5,bw10,rate 10mbit delay 25ms loss random 0.5%,baseline,jupiter-v6,2892224,success,total_deploy,21891103,2892224
