@@ -80,6 +80,7 @@ use {
         rc::Rc,
         str::FromStr,
         sync::Arc,
+        time::Instant,
     },
 };
 
@@ -2550,6 +2551,7 @@ async fn do_process_program_deploy(
     max_sign_attempts: usize,
     use_rpc: bool,
 ) -> ProcessResult {
+    let deploy_start = Instant::now();
     let blockhash = rpc_client.get_latest_blockhash().await?;
     let compute_unit_limit = ComputeUnitLimit::Simulated;
 
@@ -2661,6 +2663,13 @@ async fn do_process_program_deploy(
         &compute_unit_limit,
     )
     .await?;
+
+    info!(
+        target: "deploy_metric",
+        "total_deploy,{},{}",
+        deploy_start.elapsed().as_micros(),
+        program_len,
+    );
 
     let program_id = CliProgramId {
         program_id: program_signers[0].pubkey().to_string(),
@@ -3160,6 +3169,10 @@ async fn send_deploy_messages(
             }
         }
 
+        // Spans mirror the ones on the tpu-client-next branch so the two arms are
+        // directly comparable: client_setup covers building the transport,
+        // write_chunks covers signing, sending and confirming every write chunk.
+        let setup_start = Instant::now();
         let connection_cache = {
             #[cfg(feature = "dev-context-only-utils")]
             let cache = ConnectionCache::new_quic_for_tests("connection_cache_cli_program_quic", 1);
@@ -3200,7 +3213,16 @@ async fn send_deploy_messages(
                             .expect("Should return a valid tpu client"),
                     )
                 };
-                send_and_confirm_transactions_in_parallel_v2(
+                info!(
+                    target: "deploy_metric",
+                    "client_setup,{},{}",
+                    setup_start.elapsed().as_micros(),
+                    0,
+                );
+
+                let write_start = Instant::now();
+                let num_write_messages = write_messages.len();
+                let result = send_and_confirm_transactions_in_parallel_v2(
                     rpc_client.clone(),
                     tpu_client,
                     &write_messages,
@@ -3211,7 +3233,14 @@ async fn send_deploy_messages(
                         rpc_send_transaction_config: config.send_transaction_config,
                     },
                 )
-                .await
+                .await;
+                info!(
+                    target: "deploy_metric",
+                    "write_chunks,{},{}",
+                    write_start.elapsed().as_micros(),
+                    num_write_messages,
+                );
+                result
             }
         }
         .map_err(|err| format!("Data writes to account failed: {err}"))?
@@ -3232,6 +3261,7 @@ async fn send_deploy_messages(
     {
         trace!("Deploying program");
 
+        let final_tx_start = Instant::now();
         simulate_and_update_compute_unit_limit(compute_unit_limit, &rpc_client, &mut message)
             .await?;
         let mut final_tx = Transaction::new_unsigned(message);
@@ -3239,16 +3269,21 @@ async fn send_deploy_messages(
         let mut signers = final_signers.to_vec();
         signers.push(fee_payer_signer);
         final_tx.try_sign(&signers, blockhash)?;
-        return Ok(Some(
-            rpc_client
-                .send_and_confirm_transaction_with_spinner_and_config(
-                    &final_tx,
-                    config.commitment,
-                    config.send_transaction_config,
-                )
-                .await
-                .map_err(|e| format!("Deploying program failed: {e}"))?,
-        ));
+        let result = rpc_client
+            .send_and_confirm_transaction_with_spinner_and_config(
+                &final_tx,
+                config.commitment,
+                config.send_transaction_config,
+            )
+            .await
+            .map_err(|e| format!("Deploying program failed: {e}"))?;
+        info!(
+            target: "deploy_metric",
+            "final_tx,{},{}",
+            final_tx_start.elapsed().as_micros(),
+            0,
+        );
+        return Ok(Some(result));
     }
 
     Ok(None)
