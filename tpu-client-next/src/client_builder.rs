@@ -10,12 +10,9 @@
 //! # Example
 //!
 //! ```ignore
-//!  let builder = ClientBuilder::with_leader_updater(leader_updater)
+//!  let builder = ClientBuilder::new(leader_updater)
 //!        .cancel_token(cancel.child_token())
-//!        .bind_addr(SocketAddr::new(
-//!            IpAddr::V4(Ipv4Addr::LOCALHOST),
-//!            0u16
-//!        ))
+//!        .bind_socket(std::net::UdpSocket::bind("0.0.0.0").expect("Failed to bind to port"))
 //!        .leader_send_fanout(1)
 //!        .identity(&identity_keypair)
 //!        .max_cache_size(NonZeroUsize::new(128).unwrap())
