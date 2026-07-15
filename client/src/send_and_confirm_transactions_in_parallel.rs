@@ -309,7 +309,10 @@ async fn sign_all_messages_and_send<T: Signers + ?Sized>(
                     ),
                 );
             }
-            send_transaction_with_rpc_fallback(
+            // MEASUREMENT ONLY: mirrors the span on the tpu-client-next branch, so
+            // the first hand-off is directly comparable between the two transports.
+            let send_start = std::time::Instant::now();
+            let result = send_transaction_with_rpc_fallback(
                 rpc_client,
                 tpu_client,
                 transaction,
@@ -318,7 +321,16 @@ async fn sign_all_messages_and_send<T: Signers + ?Sized>(
                 *index,
                 rpc_send_transaction_config,
             )
-            .await
+            .await;
+            if counter == 0 {
+                log::info!(
+                    target: "deploy_metric",
+                    "first_send,{},{}",
+                    send_start.elapsed().as_micros(),
+                    0,
+                );
+            }
+            result
         });
     }
     // collect to convert Vec<Result<_>> to Result<Vec<_>>
@@ -342,6 +354,14 @@ async fn confirm_transactions_till_block_height_and_resend_unexpired_transaction
         .iter()
         .map(|x| x.last_valid_block_height)
         .max();
+
+    // MEASUREMENT ONLY: mirrors the counters on the tpu-client-next branch. This
+    // loop resends over the TPU transport, so it is transport-dependent -- it is
+    // not just waiting on RPC. resend_time is the part spent inside the transport;
+    // confirm_phase minus resend_time is time waiting for the 1Hz poller.
+    let mut resend_rounds: u64 = 0;
+    let mut resent_txs: u64 = 0;
+    let mut resend_time_us: u128 = 0;
 
     if let Some(mut max_valid_block_height) = max_valid_block_height {
         if let Some(progress_bar) = progress_bar {
@@ -368,6 +388,9 @@ async fn confirm_transactions_till_block_height_and_resend_unexpired_transaction
                     .filter(|x| block_height < x.last_valid_block_height)
                     .map(|x| x.serialized_transaction.clone())
                     .collect::<Vec<_>>();
+                resend_rounds += 1;
+                resent_txs += txs_to_resend_over_tpu.len() as u64;
+                let resend_start = std::time::Instant::now();
                 send_staggered_transactions(
                     progress_bar,
                     tpu_client,
@@ -376,6 +399,7 @@ async fn confirm_transactions_till_block_height_and_resend_unexpired_transaction
                     context,
                 )
                 .await;
+                resend_time_us += resend_start.elapsed().as_micros();
             } else {
                 tokio::time::sleep(Duration::from_millis(100)).await;
             }
@@ -389,6 +413,15 @@ async fn confirm_transactions_till_block_height_and_resend_unexpired_transaction
             }
         }
     }
+
+    log::info!(
+        target: "deploy_metric",
+        "resend_rounds,{},{}",
+        resend_rounds,
+        transactions_to_confirm,
+    );
+    log::info!(target: "deploy_metric", "resent_txs,{},{}", resent_txs, 0);
+    log::info!(target: "deploy_metric", "resend_time,{},{}", resend_time_us, 0);
 }
 
 async fn send_staggered_transactions(
@@ -518,6 +551,9 @@ pub async fn send_and_confirm_transactions_in_parallel_v2<T: Signers + ?Sized>(
         // clear the map so that we can start resending
         unconfirmed_transasction_map.clear();
 
+        // MEASUREMENT ONLY: split the write phase into its two halves, mirroring the
+        // spans on the tpu-client-next branch.
+        let send_start = std::time::Instant::now();
         sign_all_messages_and_send(
             &progress_bar,
             &rpc_client,
@@ -528,12 +564,26 @@ pub async fn send_and_confirm_transactions_in_parallel_v2<T: Signers + ?Sized>(
             config.rpc_send_transaction_config,
         )
         .await?;
+        log::info!(
+            target: "deploy_metric",
+            "send_phase,{},{}",
+            send_start.elapsed().as_micros(),
+            total_transactions,
+        );
+
+        let confirm_start = std::time::Instant::now();
         confirm_transactions_till_block_height_and_resend_unexpired_transaction_over_tpu(
             &progress_bar,
             &tpu_client,
             &context,
         )
         .await;
+        log::info!(
+            target: "deploy_metric",
+            "confirm_phase,{},{}",
+            confirm_start.elapsed().as_micros(),
+            0,
+        );
 
         if unconfirmed_transasction_map.is_empty() {
             break;
