@@ -1,5 +1,5 @@
 use {
-    async_trait::async_trait,
+    solana_cli::broadcaster::BackpressuredBroadcaster,
     solana_client::{
         nonblocking::tpu_client::TpuClient,
         rpc_config::RpcSendTransactionConfig,
@@ -23,15 +23,10 @@ use {
     solana_system_interface::instruction as system_instruction,
     solana_test_validator::TestValidator,
     solana_tpu_client_next::{
-        client_builder::ClientBuilder,
-        connection_workers_scheduler::{ConnectionWorkersSchedulerError, WorkersBroadcaster},
-        leader_updater::create_pinned_leader_updater,
-        transaction_batch::TransactionBatch,
-        workers_cache::WorkersCache,
+        client_builder::ClientBuilder, leader_updater::create_pinned_leader_updater,
     },
     spl_memo_interface::{instruction::build_memo, v3 as memo_program},
     std::{
-        net::SocketAddr,
         num::NonZeroUsize,
         sync::Arc,
         time::{Duration, Instant},
@@ -198,40 +193,6 @@ fn tagged_memo_message(payer: &Pubkey, memo_data_len: usize, tag: usize) -> Mess
     let tag = format!("{tag:016}");
     memo[..tag.len()].copy_from_slice(tag.as_bytes());
     Message::new(&[build_memo(&memo_program::id(), &memo, &[])], Some(payer))
-}
-
-/// [`BackpressuredBroadcaster`] sends transactions to all the workers, awaiting
-/// free capacity on each worker's channel instead of dropping the batch when
-/// the channel is full (as the default `NonblockingBroadcaster` does).
-///
-/// Note: leaders in the fanout are served sequentially, so a particularly slow
-/// leader delays delivery to the remaining leaders in the same batch.
-struct BackpressuredBroadcaster;
-
-#[async_trait]
-impl WorkersBroadcaster for BackpressuredBroadcaster {
-    async fn send_to_workers(
-        &self,
-        workers: &mut WorkersCache,
-        leaders: &[SocketAddr],
-        transaction_batch: TransactionBatch,
-    ) -> Result<(), ConnectionWorkersSchedulerError> {
-        for leader in leaders {
-            // Unlike `try_send_transactions_to_address`, this awaits until the
-            // worker channel has room, so a full channel never surfaces as an
-            // error and the batch is not dropped.
-            let send_res = workers
-                .send_transactions_to_address(leader, transaction_batch.clone())
-                .await;
-            if let Err(err) = send_res {
-                log::debug!("Failed to send transactions to {leader:?}, worker send error: {err}.");
-                // `send_transactions_to_address` already evicts the worker on
-                // `ReceiverDropped`; the remaining errors (`WorkerNotFound`,
-                // `ShutdownError`) are transient/expected and non-fatal here.
-            }
-        }
-        Ok(())
-    }
 }
 
 /// Submits a large burst of maximum-size transactions through the tpu-client-next

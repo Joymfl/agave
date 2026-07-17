@@ -43,8 +43,8 @@ tungstenite = { workspace = true, features = ["rustls-tls-webpki-roots"] }
 
 [dev-dependencies]
 agave-logger = { path = "../logger", features = ["agave-unstable-api"] }
-async-trait = { workspace = true }
 log = { workspace = true }
+solana-cli = { path = "../cli" }
 solana-net-utils = { path = "../net-utils", features = ["agave-unstable-api"] }
 solana-packet = { workspace = true }
 solana-rpc = { path = "../rpc", features = ["agave-unstable-api", "dev-context-only-utils"] }

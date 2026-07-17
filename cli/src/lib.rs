@@ -21,6 +21,7 @@ macro_rules! pubkey {
 extern crate const_format;
 
 pub mod address_lookup_table;
+pub mod broadcaster;
 pub mod checks;
 pub mod clap_app;
 pub mod cli;
