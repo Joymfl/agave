@@ -68,7 +68,7 @@ use {
     solana_syscalls::create_program_runtime_environment,
     solana_system_interface::{MAX_PERMITTED_DATA_LENGTH, error::SystemError},
     solana_tpu_client_next::{
-        ClientBuilder, ConnectionWorkersSchedulerError,
+        ClientBuilder, ConnectionWorkersSchedulerError, SendTransactionStats,
         connection_workers_scheduler::WorkersBroadcaster,
         node_address_service::LeaderTpuCacheServiceConfig, transaction_batch::TransactionBatch,
         websocket_node_address_service::WebsocketNodeAddressService, workers_cache::WorkersCache,

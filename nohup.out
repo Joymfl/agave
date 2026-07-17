@@ -1,0 +1,26 @@
+programs:
+  jupiter-v6     2,892,224 bytes
+  token-2022     1,382,016 bytes
+  token            108,600 bytes
+variants:
+  baseline       /mnt/workspace/oss/solana/agave-baseline/target/release/solana
+  tpu_next       /mnt/workspace/oss/solana/agave-bench-shred/target/release/solana
+network conditions:
+  none           (no impairment)
+[1/600] run 0 none jupiter-v6 baseline
+Traceback (most recent call last):
+  File "/mnt/workspace/oss/solana/agave-bench-shred/./bench-deploy.py", line 467, in <module>
+    main()
+    ~~~~^^
+  File "/mnt/workspace/oss/solana/agave-bench-shred/./bench-deploy.py", line 431, in main
+    validator = start_validator(cluster, ledger, mint_pubkey)
+  File "/mnt/workspace/oss/solana/agave-bench-shred/./bench-deploy.py", line 199, in start_validator
+    time.sleep(0.25)
+    ~~~~~~~~~~^^^^^^
+KeyboardInterrupt
+usage: bench-deploy.py [-h] --variant NAME=PATH [--netem NAME=SPEC]
+                       [--netns NETNS] [--rpc-host RPC_HOST]
+                       [--veth-host VETH_HOST] [--veth-peer VETH_PEER]
+                       [--runs RUNS] [--out OUT] [--seed SEED]
+                       [--timeout TIMEOUT]
+bench-deploy.py: error: unrecognized arguments: loss3=loss random 3%
