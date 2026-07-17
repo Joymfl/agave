@@ -7716,6 +7716,7 @@ dependencies = [
  "agave-logger",
  "agave-votor-messages",
  "assert_matches",
+ "async-trait",
  "bincode",
  "bip39",
  "bs58",
@@ -7783,6 +7784,7 @@ dependencies = [
  "solana-system-interface 3.2.0",
  "solana-test-validator",
  "solana-tpu-client",
+ "solana-tpu-client-next",
  "solana-transaction",
  "solana-transaction-error",
  "solana-transaction-status",
@@ -7793,6 +7795,7 @@ dependencies = [
  "test-case",
  "thiserror 2.0.18",
  "tokio",
+ "tokio-util 0.7.18",
  "wincode",
 ]
 
