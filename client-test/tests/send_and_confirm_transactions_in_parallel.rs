@@ -23,7 +23,8 @@ use {
     solana_system_interface::instruction as system_instruction,
     solana_test_validator::TestValidator,
     solana_tpu_client_next::{
-        client_builder::ClientBuilder, leader_updater::create_pinned_leader_updater,
+        client_builder::ClientBuilder, connection_workers_scheduler::NonblockingBroadcaster,
+        leader_updater::create_pinned_leader_updater,
     },
     spl_memo_interface::{instruction::build_memo, v3 as memo_program},
     std::{
@@ -257,7 +258,7 @@ fn test_send_and_confirm_transactions_in_parallel_v3(staked: bool) {
             .identity(&signer)
             // Apply backpressure instead of dropping batches on a
             // full worker channel.
-            .broadcaster(BackpressuredBroadcaster)
+            .broadcaster(NonblockingBroadcaster)
             .build()
             .expect("Failed to build TPU client")
     });
